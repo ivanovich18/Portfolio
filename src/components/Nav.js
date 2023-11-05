@@ -5,7 +5,8 @@ function Nav() {
         <>
             <nav>
                 <img src={logo} alt='Website logo' />
-                <p>/ Ivan Suralta</p>
+                <p>/</p>
+                <h1>Ivan Suralta</h1>
                 <ul>
                     <li><a href=''>About</a></li>
                     <li><a href=''>Skills</a></li>
