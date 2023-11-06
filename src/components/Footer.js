@@ -17,7 +17,7 @@ function Footer() {
                     <a href='https://twitter.com/ivanovich0808'>X</a>
                 </section>
                 <section>
-
+                    {/* Comment */}
                 </section>
             </footer>
         </>
