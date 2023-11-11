@@ -16,7 +16,6 @@ function About() {
                     <img className='gdscBadge' src={gdscBadge} alt='GDSC Lead Badge' />
                 </div>
             </section>
-
             <section className='aboutRight'>
                 <p className='text1'>👋🏻 Hello! My name is</p>
                 <h2 className='text2'>IVAN SURALTA</h2>
