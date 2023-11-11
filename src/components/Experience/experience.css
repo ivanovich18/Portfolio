@@ -1,0 +1,60 @@
+.experience {
+    width: 100vw;
+    max-width: 80rem;
+    height: 57.5rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 4.5rem;
+    
+}
+
+.header2 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-family: 'Product Sans Medium', sans-serif;
+}
+
+.header3 {
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.expSpan {
+    color: #636363;
+    font-size: 1rem;
+}
+
+.expContainer {
+    width: 40rem;
+    height: 11.0625rem;
+    border-radius: 0.625rem;
+    background: #FFF;
+    display: flex;
+}
+
+/* .expContainer:first-of-type {
+    margin-top: rem;
+} */
+
+.gdscLogo, .dashlabsLogo, .ctuLogo {
+    max-width: 100%;
+    object-fit: cover;
+    width: 6.25rem;
+    height: 6.25rem;
+}
+
+.expLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+.expRight {
+    display: flex;
+    width: 50%;
+}
+
+.experience p {
+    color: #000;
+}

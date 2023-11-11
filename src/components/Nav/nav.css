@@ -1,0 +1,64 @@
+.navBar {
+    height: 4.6875rem;
+    width: 100vw;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: hsla(216, 28%, 7%, 0.5);
+    backdrop-filter: blur(16px);
+}
+
+.navLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.divider {
+    font-size: 2rem;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.nav-logo {
+    object-fit: cover;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.desktopLinkItems {
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 1.15rem;
+    font-family: 'Product Sans Medium', sans-serif;
+}
+
+.desktopMenuBtn {
+    width: 8.25rem;
+    height: 2.5rem;
+    border-radius: 0.625rem;
+    background: #FFF;
+    color: #000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: transparent;
+    font-size: 1rem;
+    font-family: 'Product Sans Medium', sans-serif;
+}
+
+.rightArrow {
+    fill: #000;
+    font-size: larger;
+}

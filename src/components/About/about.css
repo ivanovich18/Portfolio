@@ -1,0 +1,82 @@
+.aboutPage {
+    height: 40rem;
+    width: 100vw;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 5rem 2rem 0rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items:start;
+    gap: 2rem;
+}
+
+.aboutLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.aboutRight{
+width: 60%;
+}
+
+.text1 {
+    font-size: 1.5rem;
+}
+
+.text2 {
+    margin-top: 0.5rem;
+    font-size: 2.5rem;
+}
+
+.text3 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.aboutImage{
+    object-fit: cover;
+    width: 22rem;
+    height: 22rem;
+    border-radius: 0.625rem;
+}
+
+.metaBadge,.gdscBadge {
+    object-fit: cover;
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 0.625rem;;
+}
+
+.badges {
+    margin-top: 1.75rem;
+    display: flex;
+    gap: 1.5rem;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.aboutButtons {
+    margin-top: 1.75rem;
+    width: 9.8125rem;
+    height: 3rem;
+    border-radius: 0.625rem;
+    background: #FFF;
+    color: #000;
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.aboutIcons {
+    fill: #000;
+    font-size: larger;
+}

@@ -1,0 +1,39 @@
+.logo {
+    height: 13rem;
+    width: 100vw;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    white-space: nowrap;
+    /* background-color: white; */
+}
+
+/* .logo:hover .logo-slider {
+    animation-play-state: paused;
+} */
+
+.logo-slider {
+    display: flex;
+    align-items: center;
+    animation: 10s slide infinite linear;
+    
+}
+
+.logo-slider img {
+    object-fit: cover;
+    width: 7.5rem;
+    height: 7.5rem;
+    margin-left: 3rem;
+    
+}
+
+@keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }

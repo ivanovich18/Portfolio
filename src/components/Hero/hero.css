@@ -1,0 +1,58 @@
+.hero {
+    height: 53.75rem;
+    width: 100vw;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.bigHeroImg
+{
+    object-fit: cover;
+    width: 100%;
+    height: 27rem;
+    border-radius: 0.9375rem;
+    flex-shrink: 0;
+    object-position: center bottom;
+}
+
+.helloBtn {
+    position: absolute;
+    top:90%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    border-radius: 0.625rem;
+    background: #FFF;
+    color: #000;
+    width: 11.1875rem;
+    height: 3rem;
+    font-size: 1.25rem;
+    gap: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: transparent;
+}
+/* 
+.playBtn {
+    fill: #000;
+    font-size: larger;
+} */
+
+.serviceAndLocation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.service, .location {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.bottomText {
+    font-size: 2rem;
+}

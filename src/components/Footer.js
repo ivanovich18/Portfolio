@@ -1,4 +1,4 @@
-import footerLogo from '../assets/favicon_io/android-chrome-512x512.png'
+import footerLogo from '../assets/favicon_io/android-chrome-192x192.png';
 
 function Footer() {
     return (

@@ -1,10 +1,9 @@
-import Nav from './components/Nav';
-import './App.css';
-import Experience from './components/Experience';
+import Nav from './components/Nav/Nav';
+import Experience from './components/Experience/Experience';
 import Certifications from './components/Certifications';
-import Hero from './components/Hero';
-import About from './components/About';
-import Skills from './components/Skills';
+import Hero from './components/Hero/Hero';
+import About from './components/About/About';
+import Skills from './components/Skills/Skills';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 
@@ -16,9 +15,9 @@ function App() {
       <About />
       <Skills />
       <Experience />
-      <Projects />
-      <Certifications />
-      <Footer />
+      {/* <Projects /> */}
+      {/* <Certifications /> */}
+      {/* <Footer /> */}
     </>
   );
 }
