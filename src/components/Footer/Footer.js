@@ -36,8 +36,10 @@ function Footer() {
                     <p>2023 Ivan Suralta. All rights reserved.</p>
                 </div>
                 <div className='botRight'>
-                    <p>License</p>
-                    <p>Source Code</p>
+                    <a href='https://github.com/ivanovich18/softdev1-portfolio-website/blob/main/LICENSE' target='_blank'><p>License</p></a>
+                    <a href='https://github.com/ivanovich18/softdev1-portfolio-website' target='_blank'>
+                        <p>Source Code</p>
+                    </a>
                 </div>
             </section>
         </footer>
