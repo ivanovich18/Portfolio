@@ -7,6 +7,7 @@ import Projects from './components/Projects/Projects';
 import Certifications from './components/Certifications/Certifications';
 import Footer from './components/Footer/Footer';
 import Contact from './components/Contact/Contact';
+import './style.css';
 
 function App() {
   return (
