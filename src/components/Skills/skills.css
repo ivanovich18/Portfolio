@@ -10,14 +10,14 @@
     /* background-color: white; */
 }
 
-/* .logo:hover .logo-slider {
+.logo:hover .logo-slider {
     animation-play-state: paused;
-} */
+}
 
 .logo-slider {
     display: flex;
     align-items: center;
-    animation: 10s slide infinite linear;
+    animation: 30s slide infinite linear;
     
 }
 
