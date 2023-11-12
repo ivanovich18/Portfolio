@@ -35,7 +35,7 @@ function About() {
                         <button className='aboutButtons'><AiFillLinkedin className='aboutIcons' />LinkedIn</button>
                     </a>
 
-                    <a href='https://drive.google.com/file/d/1KDvrdqIll2e0p4p3O9nAl7A7rPeX5j9y/view?usp=drive_link' target='_blank'>
+                    <a href='https://flowcv.com/resume/7jh4o2e0ac' target='_blank'>
                         <button className='aboutButtons'><BsFileEarmarkPerson className='aboutIcons' />Résumé</button>
                     </a>
                 </div>
