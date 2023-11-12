@@ -9,19 +9,26 @@ function Nav() {
     return (
         <nav className="navBar">
             <div className='navLeft'>
-                <img className='nav-logo' src={logo} alt='Website logo' />
+                <Link activeClass='active' to='hero' spy={true} smooth={true} offset={-100} duration={500}>
+                    <img className='nav-logo' src={logo}
+                        alt='Website logo' />
+                </Link>
                 <span className='divider'>/</span>
-                <a className='title' href='' target='_self'>Ivan Suralta</a>
+                <Link activeClass='active' to='hero' spy={true} smooth={true} offset={-100} duration={500}>
+                    <a className='title' >Ivan Suralta</a>
+                </Link>
             </div>
 
             <div className='navCenter'>
-                <Link className='desktopLinkItems'>About</Link>
-                <Link className='desktopLinkItems'>Skills</Link>
-                <Link className='desktopLinkItems'>Experience</Link>
-                <Link className='desktopLinkItems'>Projects</Link>
-                <Link className='desktopLinkItems'>Certifications</Link>
+                <Link activeClass='active' to='about' spy={true} smooth={true} offset={-100} duration={500} className='desktopLinkItems'>About</Link>
+                <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-100} duration={500} className='desktopLinkItems'>Skills</Link>
+                <Link activeClass='active' to='experience' spy={true} smooth={true} offset={-100} duration={500} className='desktopLinkItems'>Experience</Link>
+                <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-100} duration={500} className='desktopLinkItems'>Projects</Link>
+                <Link activeClass='active' to='certifications' spy={true} smooth={true} offset={-100} duration={500} className='desktopLinkItems'>Certifications</Link>
             </div>
-            <button className='desktopMenuBtn'>Contact Me <RiArrowRightSLine className='rightArrow' /></button>
+            <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-100} duration={500}>
+                <button className='desktopMenuBtn'>Contact Me <RiArrowRightSLine className='rightArrow' /></button>
+            </Link>
         </nav>
     );
 }

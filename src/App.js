@@ -1,11 +1,12 @@
 import Nav from './components/Nav/Nav';
 import Experience from './components/Experience/Experience';
-import Certifications from './components/Certifications';
 import Hero from './components/Hero/Hero';
 import About from './components/About/About';
 import Skills from './components/Skills/Skills';
-import Projects from './components/Projects';
-import Footer from './components/Footer';
+import Projects from './components/Projects/Projects';
+import Certifications from './components/Certifications/Certifications';
+import Footer from './components/Footer/Footer';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -15,9 +16,10 @@ function App() {
       <About />
       <Skills />
       <Experience />
-      {/* <Projects /> */}
-      {/* <Certifications /> */}
-      {/* <Footer /> */}
+      <Projects />
+      <Certifications />
+      <Contact />
+      <Footer />
     </>
   );
 }

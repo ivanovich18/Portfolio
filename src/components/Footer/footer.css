@@ -1,0 +1,64 @@
+.topFooter, .botFooter {
+    height: 8.75rem;
+    width: 100vw;
+    max-width: 80rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .topFooter {
+    margin-top: 2.5rem;
+} */
+
+.footerLogo {
+    width: 3.75rem;
+    height: 3.75rem;
+    cursor: pointer;
+}
+
+.topLeft, .botLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.topRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.botRight{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.footerDivider {
+    font-size: 3rem;
+}
+
+.footerTitle {
+    font-size: 2.25rem;
+    cursor: pointer;
+}
+
+.socialIcons {
+    width: 3rem;
+    height: 3rem;
+}
+
+.mail {
+    width: 4rem;
+    height: 4rem;
+}
+
+.copyrightLogo {
+    width: 1.5rem;
+    height: 1.5rem;
+}

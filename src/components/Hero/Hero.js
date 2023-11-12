@@ -5,7 +5,7 @@ import '../Hero/hero.css'
 
 function Hero() {
     return (
-        <header className='hero'>
+        <header id='hero' className='hero'>
             <div className='imgContainer'>
                 <img className='bigHeroImg' src={heroImg} alt='Ivan Suralta with Google background' />
                 {/* <button className='helloBtn'><BsPlayCircle className='playBtn' />Hello, World!</button> */}
@@ -23,7 +23,7 @@ function Hero() {
                 <p className='bottomText'>Join me in my journey in development and design.</p>
             </div>
 
-            <div className='dividerBottom'></div>
+            <div className='dividerBottomDashed heroDivider'></div>
         </header>
     );
 }

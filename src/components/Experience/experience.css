@@ -1,14 +1,14 @@
 .experience {
     width: 100vw;
     max-width: 80rem;
-    height: 57.5rem;
+    height: 55rem;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     row-gap: 4.5rem;
     overflow: hidden;
-    margin-top: 1rem;
+    margin-top: 3rem;
 }
 
 .header2 {
@@ -64,7 +64,7 @@
 .expRight {
     display: flex;
     width: 50%;
-    margin: 1rem;
+    margin: 0 0 0 1.5rem;
     justify-content: center;
     align-items: center;
 }
@@ -77,4 +77,8 @@
     width: 0.125rem;
     height: 4.375rem;
     border-left: 3px solid white;
+}
+
+.expDivider {
+    margin-top: 2rem;
 }

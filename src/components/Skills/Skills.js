@@ -20,7 +20,7 @@ import vscode from '../../assets/slider-photos/Visual Studio Code 2019.png';
 
 function Skills() {
     return (
-        <section className='logo'>
+        <section id='skills' className='logo'>
             <div className='logo-slider'>
                 <img src={html} alt='HTML' />
                 <img src={css} alt='CSS' />

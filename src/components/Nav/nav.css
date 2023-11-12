@@ -9,7 +9,7 @@
     justify-content: space-between;
     position: sticky;
     top: 0;
-    z-index: 3;
+    z-index: 4;
     background-color: hsla(216, 28%, 7%, 0.5);
     backdrop-filter: blur(16px);
 }
@@ -28,12 +28,14 @@
 .title {
     font-size: 1.5rem;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .nav-logo {
     object-fit: cover;
     height: 2.5rem;
     width: 2.5rem;
+    cursor: pointer;
 }
 
 .desktopLinkItems {

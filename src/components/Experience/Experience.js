@@ -6,7 +6,7 @@ import '../Experience/experience.css'
 
 function Experience() {
     return (
-        <section className='experience'>
+        <section id='experience' className='experience'>
             <h2 className='header2'>Experience</h2>
             <section className='expContainer'>
                 <div className='expLeft'>
@@ -18,12 +18,12 @@ function Experience() {
                     <img className='gdscLogo' src={gdscLogo} alt='GDSC Logo' />
                 </div>
             </section>
-            <div className='verticalLine'></div>
+            {/* <div className='verticalLine'></div> */}
             <section class='expContainer'>
                 <div className='expLeft'>
                     <h3 className='header3'>Client Success Intern <span className='expSpan'>Aug 2023 - Sep 2023</span></h3>
                     <p>Dashlabs.ai</p>
-                    <p className='expDetails'>Led the Sales department's lead generation efforts, managed client inquiries via email and messenger, and initiated daily company-wide standup meetings that maintained strong client relationships, and cross-departmental communication.</p>
+                    <p className='expDetails'>Led the Sales department's lead generation efforts, managed client inquiries via email and messenger, and initiated daily company-wide standup meetings.</p>
                 </div>
                 <div className='expRight'>
                     <img className='dashlabsLogo' src={dashlabsLogo} alt='Dashlabs.ai Logo' />
@@ -35,14 +35,14 @@ function Experience() {
                 <div className='expLeft'>
                     <h3 className='header3'>Student <span className='expSpan'>September 2021 - present</span></h3>
                     <p>Cebu Technological University - Main Campus</p>
-                    <p className='expDetails'>Studies Bachelor of Science in Computer Engineering (BSCpE) in a state technological university in Cebu City, Philippines. This 4-year program encompasses the software and hardware aspects.</p>
+                    <p className='expDetails'>Studies BS in Computer Engineering (BSCpE) in a state technological university in Cebu City, Philippines. This 4-year program encompasses the software and hardware aspects.</p>
                 </div>
 
                 <div className='expRight'>
                     <img className='ctuLogo' src={ctuLogo} alt='CTU Logo' />
                 </div>
-
             </section>
+            <div className='dividerBottomDashed expDivider'></div>
         </section>
     );
 }

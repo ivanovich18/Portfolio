@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
     margin: 0;
     padding: 0;
@@ -25,11 +29,16 @@ body {
     src: local('Product Sans Medium') url(../src/assets/fonts/GoogleSans-Medium.ttf) format('typeface');
 }
 
-.dividerBottom {
+.dividerBottomDashed {
     border-top: 1px dashed rgba(255, 255, 255, 0.50);
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
+    /* height: 1rem; */
+    width: 100%;
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.dividerBottomSolid {
+    border-top: 1px solid rgba(255, 255, 255, 0.50);
+    /* margin-top: 2rem; */
+    /* height: 1rem; */
+    width: 100%;
+}

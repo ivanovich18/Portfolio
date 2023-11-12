@@ -6,14 +6,19 @@ import { AiFillLinkedin } from "react-icons/ai";
 import { BsFileEarmarkPerson } from "react-icons/bs";
 
 function About() {
+
     return (
-        <main className='aboutPage'>
+        <main id='about' className='aboutPage'>
             <section className='aboutLeft'>
                 <img className='aboutImage' src={aboutMePic} alt='Ivan portrait photo' />
 
                 <div className='badges'>
-                    <img className='metaBadge' src={metaBadge} alt='Meta Front-end Developer Badge' />
-                    <img className='gdscBadge' src={gdscBadge} alt='GDSC Lead Badge' />
+                    <a href='https://www.credly.com/badges/8b5468c3-69ae-43d5-8d48-d43d7335e526/public_url' target='_blank'>
+                        <img className='metaBadge' src={metaBadge} alt='Meta Front-end Developer Badge' />
+                    </a>
+                    <a href='https://g.dev/ivan-suralta' target='_blank'>
+                        <img className='gdscBadge' src={gdscBadge} alt='GDSC Lead Badge' />
+                    </a>
                 </div>
             </section>
             <section className='aboutRight'>
@@ -26,8 +31,13 @@ function About() {
                 <p className='text3'>As an aspiring full-stack web developer, I am constantly expanding my skillset to ensure I can contribute to all aspects of web development.</p>
 
                 <div className='buttons'>
-                    <button className='aboutButtons'><AiFillLinkedin className='aboutIcons' />LinkedIn</button>
-                    <button className='aboutButtons'><BsFileEarmarkPerson className='aboutIcons' />Résumé</button>
+                    <a href='https://www.linkedin.com/in/ivan-suralta/' target='_blank'>
+                        <button className='aboutButtons'><AiFillLinkedin className='aboutIcons' />LinkedIn</button>
+                    </a>
+
+                    <a href='https://drive.google.com/file/d/1KDvrdqIll2e0p4p3O9nAl7A7rPeX5j9y/view?usp=drive_link' target='_blank'>
+                        <button className='aboutButtons'><BsFileEarmarkPerson className='aboutIcons' />Résumé</button>
+                    </a>
                 </div>
             </section>
         </main >

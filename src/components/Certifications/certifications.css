@@ -1,0 +1,118 @@
+.certifications {
+    height: 90rem;
+    width: 100vw;
+    max-width: 80rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 4rem;
+    margin-top: 5rem;
+    /* display: flex; */
+}
+
+.certDiv {
+    width: 53.75rem;
+    height: 12.5rem;
+    background-color: #fff;
+    display: flex;
+    border-radius: 0.625rem;
+    padding: 1.5rem 0 1.5rem 1.5rem;
+    justify-content: center;
+}
+
+.certLeft {
+    display: flex;
+    flex-direction: column;
+    width: 200%;
+}
+
+.certRight {
+    display: flex;
+    width: 50%;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.certifications p {
+    color: #000;
+}
+
+.date {
+    margin-top: 1.3rem;
+}
+
+.certButtons {
+    margin-top: 0.8rem;
+}
+
+.certBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width: 11.125rem;
+    height: 2rem;
+    background-color: #000;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.otherCerts {
+    width: 53.75rem;
+    height: 28.25rem;
+    background-color: #FFF;
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+    border-radius: 0.625rem;
+    padding: 2rem;
+}
+
+.otherLeft {
+    width: 50%;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 1.2rem;
+}
+
+.otherRight {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    row-gap: 1.2rem;
+    margin-left: 2rem;
+}
+
+.otherCerts h3 {
+ color: #000;
+ font-weight: 500;
+ font-family: 'Product Sans Medium';
+ font-size: 1rem;
+}
+
+.other p {
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.otherLink {
+    fill: #000;
+    font-size: larger;
+    /* background-color: aqua; */
+}
+
+.other button {
+    margin-left: 0.5rem;
+    border: transparent;
+    cursor: pointer;
+}
+
+.divCertifications {
+    margin-top: 2rem;
+}
