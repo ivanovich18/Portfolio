@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+    color: #ffffff;
+    font-family: 'Product Sans', sans-serif;
+}
+
+body {
+    background: #161B22;
+    color: #ffffff;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    src: local('Product Sans') url(../src/assets/fonts/GoogleSans-Regular.ttf) format('typeface');
+}
+
+@font-face {
+    font-family: 'Product Sans Medium';
+    src: local('Product Sans Medium') url(../src/assets/fonts/GoogleSans-Medium.ttf) format('typeface');
+}
+
+.dividerBottomDashed {
+    border-top: 1px dashed rgba(255, 255, 255, 0.50);
+    width: 100%;
+}
+
+.dividerBottomSolid {
+    border-top: 1px solid rgba(255, 255, 255, 0.50);
+    width: 100%;
+}
