@@ -1,5 +1,6 @@
 import heroImg from '../../assets/hero-img-ivan.png';
-import ivanDev from '../../assets/ivan-dev.png'
+// import ivanDev from '../../assets/ivan-dev.png'
+import ivanDev2 from '../../assets/test.svg';
 import '../Hero/hero.css'
 // import { BsPlayCircle } from "react-icons/bs";
 
@@ -16,7 +17,7 @@ function Hero() {
                 <p className='location'>Cebu City, Philippines</p>
             </div>
 
-            <img className='heroBigText' src={ivanDev} />
+            <img className='heroBigText' src={ivanDev2} />
 
             <div className='heroBottom'>
                 <p className='bottomText'>Discover all the things about Ivan. </p>
