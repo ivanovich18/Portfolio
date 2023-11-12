@@ -1,4 +1,5 @@
 import aboutMePic from '../../assets/aboutme-pic.png';
+import aboutMePic2 from '../../assets/aboutme-pic2.png';
 import metaBadge from '../../assets/meta-front-end-developer-certificate.png';
 import gdscBadge from '../../assets/gdsc-badge.png';
 import '../About/about.css'
@@ -10,7 +11,7 @@ function About() {
     return (
         <main id='about' className='aboutPage'>
             <section className='aboutLeft'>
-                <img className='aboutImage' src={aboutMePic} alt='Ivan portrait photo' />
+                <img className='aboutImage' src={aboutMePic2} alt='Ivan portrait photo' />
 
                 <div className='badges'>
                     <a href='https://www.credly.com/badges/8b5468c3-69ae-43d5-8d48-d43d7335e526/public_url' target='_blank'>
