@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6fffbc9e.css",
-    "main.js": "/portfolio/static/js/main.1489a961.js",
+    "main.css": "/portfolio/static/css/main.fcbb495e.css",
+    "main.js": "/portfolio/static/js/main.7cd93154.js",
     "static/media/hero-img-ivan.png": "/portfolio/static/media/hero-img-ivan.17e04c76cdd89ebb854f.png",
     "static/media/aboutme-pic.png": "/portfolio/static/media/aboutme-pic.7de7be268cf6a5304022.png",
+    "static/media/GoogleSans-Regular.ttf": "/portfolio/static/media/GoogleSans-Regular.bec0591b6a291c3ca895.ttf",
+    "static/media/GoogleSans-Medium.ttf": "/portfolio/static/media/GoogleSans-Medium.963c3e555aaada9ef8a9.ttf",
     "static/media/mangata-and-gallo.png": "/portfolio/static/media/mangata-and-gallo.d6bb05e9e5517776f628.png",
     "static/media/little-lemon.png": "/portfolio/static/media/little-lemon.60dd8b1ae1280adb74e8.png",
     "static/media/student-enrollment.png": "/portfolio/static/media/student-enrollment.79f5a90f9765a17def22.png",
@@ -14,11 +16,11 @@
     "static/media/gdsc-badge.png": "/portfolio/static/media/gdsc-badge.e9e31dd094ad8e28f8e4.png",
     "static/media/ivan-dev.png": "/portfolio/static/media/ivan-dev.aed55ba8314a87c3adef.png",
     "index.html": "/portfolio/index.html",
-    "main.6fffbc9e.css.map": "/portfolio/static/css/main.6fffbc9e.css.map",
-    "main.1489a961.js.map": "/portfolio/static/js/main.1489a961.js.map"
+    "main.fcbb495e.css.map": "/portfolio/static/css/main.fcbb495e.css.map",
+    "main.7cd93154.js.map": "/portfolio/static/js/main.7cd93154.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fffbc9e.css",
-    "static/js/main.1489a961.js"
+    "static/css/main.fcbb495e.css",
+    "static/js/main.7cd93154.js"
   ]
 }
