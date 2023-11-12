@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.6fffbc9e.css",
+    "main.js": "/portfolio/static/js/main.1489a961.js",
+    "static/media/hero-img-ivan.png": "/portfolio/static/media/hero-img-ivan.17e04c76cdd89ebb854f.png",
+    "static/media/aboutme-pic.png": "/portfolio/static/media/aboutme-pic.7de7be268cf6a5304022.png",
+    "static/media/mangata-and-gallo.png": "/portfolio/static/media/mangata-and-gallo.d6bb05e9e5517776f628.png",
+    "static/media/little-lemon.png": "/portfolio/static/media/little-lemon.60dd8b1ae1280adb74e8.png",
+    "static/media/student-enrollment.png": "/portfolio/static/media/student-enrollment.79f5a90f9765a17def22.png",
+    "static/media/quiz-tion.png": "/portfolio/static/media/quiz-tion.02fcedbf16471e72f681.png",
+    "static/media/upou.jpg": "/portfolio/static/media/upou.41fa7c8dd31cb6c8f133.jpg",
+    "static/media/harvard.png": "/portfolio/static/media/harvard.33fa9091047cc3c5a7dd.png",
+    "static/media/ctu-logo.png": "/portfolio/static/media/ctu-logo.70958caaa5b9cfe98e9c.png",
+    "static/media/gdsc-badge.png": "/portfolio/static/media/gdsc-badge.e9e31dd094ad8e28f8e4.png",
+    "static/media/ivan-dev.png": "/portfolio/static/media/ivan-dev.aed55ba8314a87c3adef.png",
+    "index.html": "/portfolio/index.html",
+    "main.6fffbc9e.css.map": "/portfolio/static/css/main.6fffbc9e.css.map",
+    "main.1489a961.js.map": "/portfolio/static/js/main.1489a961.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6fffbc9e.css",
+    "static/js/main.1489a961.js"
+  ]
+}
