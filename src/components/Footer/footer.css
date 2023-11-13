@@ -1,4 +1,5 @@
 .topFooter, .botFooter {
+    padding: 1rem 2rem;
     height: 8.75rem;
     width: 100vw;
     max-width: 80rem;
