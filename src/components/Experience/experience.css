@@ -36,13 +36,16 @@
     padding: 0 1.25rem;
     justify-content: center;
     align-items: center;
-    /* transform: translate(-50%, -50%); */
-    /* position: absolute; */
+    transition: transform 0.3s ease-in-out;
 }
 
 /* .expContainer:first-of-type {
     margin-top: rem;
 } */
+
+.expContainer:hover {
+    transform: translateY(-5px);
+}
 
 .expDetails {
     margin-top: 1rem;

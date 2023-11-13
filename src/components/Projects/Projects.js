@@ -9,7 +9,7 @@ function Projects() {
         <section id='projects' className='projects'>
             <h2 className='header2'>Projects</h2>
             <div className='projectShowcase'>
-                <a href='https://github.com/ivanovich18/Quiz-tion-AI' target='_blank'>
+                <a className='transform' href='https://github.com/ivanovich18/Quiz-tion-AI' target='_blank'>
                     <section className='projectPic'>
                         <h3>Quiz-tion AI</h3>
                         <img src={quiztionAIPic} alt='Quiztion AI Website' />

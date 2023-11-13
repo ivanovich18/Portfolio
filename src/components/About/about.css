@@ -40,13 +40,16 @@ width: 60%;
     width: 22rem;
     height: 22rem;
     border-radius: 0.625rem;
+    transition: transform 0.3s ease-in-out;
+    /* border: 1px solid #FFF; */
 }
 
 .metaBadge,.gdscBadge {
     object-fit: cover;
     width: 7.5rem;
     height: 7.5rem;
-    border-radius: 0.625rem;;
+    border-radius: 0.625rem;
+    transition: transform 0.3s ease-in-out;
 }
 
 .badges {
@@ -74,6 +77,11 @@ width: 60%;
     align-items: center;
     gap: 1rem;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.aboutImage:hover, .gdscBadge:hover, .metaBadge:hover, .aboutButtons:hover {
+    transform: translateY(-5px);
 }
 
 .aboutIcons {
