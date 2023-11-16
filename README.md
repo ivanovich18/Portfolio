@@ -123,6 +123,14 @@ git commit -m "Commit Message"
 git push YOUR_REPO_URL main
 ```
 
+## 🔧 Pending Fix
+
+This web application is still on its build phase. Here are some of the things that needs to be finished:
+
+1. Mobile Responsiveness (phone, tablet)
+2. Add Vertical line and Pulse to Experience component
+3. Add animation to buttons and other clickables
+
 -----
 
 Made with ❤️ by [Ivan Suralta](https://github.com/ivanovich18)
