@@ -45,6 +45,11 @@
     font-family: 'Product Sans Medium', sans-serif;
 }
 
+.desktopLinkItems:hover, .desktopLinkItems:active {
+    padding-bottom: 0.3rem;
+    border-bottom: 3px solid white;
+}
+
 .desktopMenuBtn {
     width: 8.25rem;
     height: 2.5rem;
