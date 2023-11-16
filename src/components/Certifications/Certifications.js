@@ -1,6 +1,6 @@
-import courseraPic from '../../assets/coursera.png';
-import harvardPic from '../../assets/harvard.png';
-import uniOfPhilippinesOU from '../../assets/upou.jpg';
+import courseraPic from '../../assets/others/coursera.png';
+import harvardPic from '../../assets/others/harvard.png';
+import uniOfPhilippinesOU from '../../assets/others/upou.jpg';
 import '../Certifications/certifications.css'
 import { BiLinkExternal } from "react-icons/bi";
 

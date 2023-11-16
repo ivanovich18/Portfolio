@@ -1,7 +1,7 @@
-import aboutMePic from '../../assets/aboutme-pic.png';
-import aboutMePic2 from '../../assets/aboutme-pic2.png';
-import metaBadge from '../../assets/meta-front-end-developer-certificate.png';
-import gdscBadge from '../../assets/gdsc-badge.png';
+// import aboutMePic from '../../assets/aboutme-pic.png';
+import aboutMePic2 from '../../assets/others/aboutme-pic2.png';
+import metaBadge from '../../assets/others/meta-front-end-developer-certificate.png';
+import gdscBadge from '../../assets/others/gdsc-badge.png';
 import '../About/about.css'
 import { AiFillLinkedin } from "react-icons/ai";
 import { BsFileEarmarkPerson } from "react-icons/bs";

@@ -1,7 +1,7 @@
 import React from 'react';
-import gdscLogo from '../../assets/Google_for_Developers_logomark_color.png';
-import dashlabsLogo from '../../assets/dashlabs-logo.jpg';
-import ctuLogo from '../../assets/ctu-logo.png';
+import gdscLogo from '../../assets/others/Google_for_Developers_logomark_color.png';
+import dashlabsLogo from '../../assets/others/dashlabs-logo.jpg';
+import ctuLogo from '../../assets/others/ctu-logo.png';
 import '../Experience/experience.css'
 
 function Experience() {

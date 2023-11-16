@@ -1,6 +1,6 @@
-import heroImg from '../../assets/hero-img-ivan.png';
+import heroImg from '../../assets/others/hero-img-ivan.png';
 // import ivanDev from '../../assets/ivan-dev.png'
-import ivanDev2 from '../../assets/test.svg';
+import ivanDev2 from '../../assets/others/test.svg';
 import '../Hero/hero.css'
 // import { BsPlayCircle } from "react-icons/bs";
 

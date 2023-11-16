@@ -1,7 +1,7 @@
-import quiztionAIPic from '../../assets/quiz-tion.png';
-import studentEnrollmentPic from '../../assets/student-enrollment.png';
-import littleLemonPic from '../../assets/little-lemon.png';
-import mangataAndGalloPic from '../../assets/mangata-and-gallo.png';
+import quiztionAIPic from '../../assets/others/quiz-tion.png';
+import studentEnrollmentPic from '../../assets/others/student-enrollment.png';
+import littleLemonPic from '../../assets/others/little-lemon.png';
+import mangataAndGalloPic from '../../assets/others/mangata-and-gallo.png';
 import '../Projects/projects.css';
 
 function Projects() {
