@@ -21,7 +21,7 @@ function Nav() {
 
             <div className='navCenter'>
                 <Link activeClass='active' to='about' spy={true} smooth={true} offset={-60} duration={500} className='desktopLinkItems'>About</Link>
-                <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-400} duration={500} className='desktopLinkItems'>Skills</Link>
+                <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-60} duration={500} className='desktopLinkItems'>Skills</Link>
                 <Link activeClass='active' to='experience' spy={true} smooth={true} offset={-100} duration={500} className='desktopLinkItems'>Experience</Link>
                 <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-100} duration={500} className='desktopLinkItems'>Projects</Link>
                 <Link activeClass='active' to='certifications' spy={true} smooth={true} offset={-100} duration={500} className='desktopLinkItems'>Certifications</Link>
