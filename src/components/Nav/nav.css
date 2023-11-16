@@ -45,7 +45,12 @@
     font-family: 'Product Sans Medium', sans-serif;
 }
 
-.desktopLinkItems:hover, .desktopLinkItems:active {
+.desktopLinkItems:hover{
+    padding-bottom: 0.3rem;
+    border-bottom: 3px solid white;
+}
+
+.mid:active {
     padding-bottom: 0.3rem;
     border-bottom: 3px solid white;
 }
@@ -68,4 +73,9 @@
 .rightArrow {
     fill: #000;
     font-size: larger;
+}
+
+.navCenter .active {
+    padding-bottom: 0.3rem;
+    border-bottom: 3px solid white;
 }
