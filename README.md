@@ -46,7 +46,7 @@ npm install
 
 Then, start the development server
 ```bash
-npm run develop
+npm start
 ```
 ## 📂 What's Inside?
 
