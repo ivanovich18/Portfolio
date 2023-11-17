@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.9f2a434a.css",
-    "main.js": "/static/js/main.892ad4cc.js",
+    "main.css": "/static/css/main.4b720c6f.css",
+    "main.js": "/static/js/main.b19b1ba1.js",
     "static/media/aboutme-pic2.png": "/static/media/aboutme-pic2.48239b36e0da2c0b8287.png",
     "static/media/hero-img-ivan.png": "/static/media/hero-img-ivan.17e04c76cdd89ebb854f.png",
-    "static/media/aboutme-pic.png": "/static/media/aboutme-pic.7de7be268cf6a5304022.png",
     "static/media/GoogleSans-Regular.ttf": "/static/media/GoogleSans-Regular.bec0591b6a291c3ca895.ttf",
     "static/media/GoogleSans-Medium.ttf": "/static/media/GoogleSans-Medium.963c3e555aaada9ef8a9.ttf",
     "static/media/mangata-and-gallo.png": "/static/media/mangata-and-gallo.d6bb05e9e5517776f628.png",
@@ -17,11 +16,11 @@
     "static/media/gdsc-badge.png": "/static/media/gdsc-badge.e9e31dd094ad8e28f8e4.png",
     "static/media/test.svg": "/static/media/test.1b240d61fd41fc96a1d55eb3f22f4898.svg",
     "index.html": "/index.html",
-    "main.9f2a434a.css.map": "/static/css/main.9f2a434a.css.map",
-    "main.892ad4cc.js.map": "/static/js/main.892ad4cc.js.map"
+    "main.4b720c6f.css.map": "/static/css/main.4b720c6f.css.map",
+    "main.b19b1ba1.js.map": "/static/js/main.b19b1ba1.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f2a434a.css",
-    "static/js/main.892ad4cc.js"
+    "static/css/main.4b720c6f.css",
+    "static/js/main.b19b1ba1.js"
   ]
 }
