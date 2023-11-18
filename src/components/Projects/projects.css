@@ -70,6 +70,10 @@ footer {
         width: 85vw;
     }
 
+    .projectPic h3 {
+        font-size: 1.1rem;
+    }
+
     .projectDiv {
         margin-top: 2rem;
     }
