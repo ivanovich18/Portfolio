@@ -1,3 +1,5 @@
+/* Tailwind is not yet working, I don't know why */
+
 @import 'tailwindscss/src/helper';
 
 $prefix: '';
@@ -7,8 +9,7 @@ $theme-colors: (
   transparent: transparent,
   black: #000,
   white: #fff,
-  gray: (
-    100: #f7fafc,
+  gray: (100: #f7fafc,
     200: #edf2f7,
     300: #e2e8f0,
     400: #cbd5e0,
@@ -18,8 +19,7 @@ $theme-colors: (
     800: #2d3748,
     900: #1a202c,
   ),
-  red: (
-    100: #fff5f5,
+  red: (100: #fff5f5,
     200: #fed7d7,
     300: #feb2b2,
     400: #fc8181,
@@ -29,8 +29,7 @@ $theme-colors: (
     800: #9b2c2c,
     900: #742a2a,
   ),
-  orange: (
-    100: #fffaf0,
+  orange: (100: #fffaf0,
     200: #feebc8,
     300: #fbd38d,
     400: #f6ad55,
@@ -40,8 +39,7 @@ $theme-colors: (
     800: #9c4221,
     900: #7b341e,
   ),
-  yellow: (
-    100: #fffff0,
+  yellow: (100: #fffff0,
     200: #fefcbf,
     300: #faf089,
     400: #f6e05e,
@@ -51,8 +49,7 @@ $theme-colors: (
     800: #975a16,
     900: #744210,
   ),
-  green: (
-    100: #f0fff4,
+  green: (100: #f0fff4,
     200: #c6f6d5,
     300: #9ae6b4,
     400: #68d391,
@@ -62,8 +59,7 @@ $theme-colors: (
     800: #276749,
     900: #22543d,
   ),
-  teal: (
-    100: #e6fffa,
+  teal: (100: #e6fffa,
     200: #b2f5ea,
     300: #81e6d9,
     400: #4fd1c5,
@@ -73,8 +69,7 @@ $theme-colors: (
     800: #285e61,
     900: #234e52,
   ),
-  blue: (
-    100: #ebf8ff,
+  blue: (100: #ebf8ff,
     200: #bee3f8,
     300: #90cdf4,
     400: #63b3ed,
@@ -84,8 +79,7 @@ $theme-colors: (
     800: #2c5282,
     900: #2a4365,
   ),
-  indigo: (
-    100: #ebf4ff,
+  indigo: (100: #ebf4ff,
     200: #c3dafe,
     300: #a3bffa,
     400: #7f9cf5,
@@ -95,8 +89,7 @@ $theme-colors: (
     800: #434190,
     900: #3c366b,
   ),
-  purple: (
-    100: #faf5ff,
+  purple: (100: #faf5ff,
     200: #e9d8fd,
     300: #d6bcfa,
     400: #b794f4,
@@ -106,8 +99,7 @@ $theme-colors: (
     800: #553c9a,
     900: #44337a,
   ),
-  pink: (
-    100: #fff5f7,
+  pink: (100: #fff5f7,
     200: #fed7e2,
     300: #fbb6ce,
     400: #f687b3,
@@ -247,47 +239,43 @@ $theme-cursor: (
   not-allowed: not-allowed,
 );
 
-$theme-width: map-merge(
-  map-merge($theme-spacing, (auto: auto)),
-  (
-    1_2: 50%,
-    1_3: 33.33333%,
-    2_3: 66.66667%,
-    1_4: 25%,
-    2_4: 50%,
-    3_4: 75%,
-    1_5: 20%,
-    2_5: 40%,
-    3_5: 60%,
-    4_5: 80%,
-    1_6: 16.66667%,
-    2_6: 33.33333%,
-    3_6: 50%,
-    4_6: 66.66667%,
-    5_6: 83.33333%,
-    1_12: 8.33333%,
-    2_12: 16.66667%,
-    3_12: 25%,
-    4_12: 33.33333%,
-    5_12: 41.66667%,
-    6_12: 50%,
-    7_12: 58.33333%,
-    8_12: 66.66667%,
-    9_12: 75%,
-    10_12: 83.33333%,
-    11_12: 91.66667%,
-    full: 100%,
-    screen: 100vw,
-  ),
-);
+$theme-width: map-merge(map-merge($theme-spacing, (auto: auto)),
+    (1_2: 50%,
+      1_3: 33.33333%,
+      2_3: 66.66667%,
+      1_4: 25%,
+      2_4: 50%,
+      3_4: 75%,
+      1_5: 20%,
+      2_5: 40%,
+      3_5: 60%,
+      4_5: 80%,
+      1_6: 16.66667%,
+      2_6: 33.33333%,
+      3_6: 50%,
+      4_6: 66.66667%,
+      5_6: 83.33333%,
+      1_12: 8.33333%,
+      2_12: 16.66667%,
+      3_12: 25%,
+      4_12: 33.33333%,
+      5_12: 41.66667%,
+      6_12: 50%,
+      7_12: 58.33333%,
+      8_12: 66.66667%,
+      9_12: 75%,
+      10_12: 83.33333%,
+      11_12: 91.66667%,
+      full: 100%,
+      screen: 100vw,
+    ),
+  );
 
-$theme-height: map-merge(
-   map-merge($theme-spacing, (auto: auto)),
-   (
-     full: 100%,
-     screen: 100vh,
-   ),
-);
+$theme-height: map-merge(map-merge($theme-spacing, (auto: auto)),
+    (full: 100%,
+      screen: 100vh,
+    ),
+  );
 
 $theme-min-width: (
   0: 0,
@@ -321,10 +309,9 @@ $theme-max-height: (
 
 $theme-padding: $theme-spacing;
 
-$theme-margin: map-merge(
-  map-merge($theme-spacing, (auto: auto)),
-  negative-map($theme-spacing),
-);
+$theme-margin: map-merge(map-merge($theme-spacing, (auto: auto)),
+    negative-map($theme-spacing),
+  );
 
 $theme-object-position: (
   bottom: bottom,
@@ -421,70 +408,211 @@ $theme-inset: (
   auto: auto,
 );
 
-$variants-appearance: (responsive);
-$variants-background-attachment: (responsive);
-$variants-background-color: (responsive, hover, focus);
-$variants-background-position: (responsive);
-$variants-background-repeat: (responsive);
-$variants-background-size: (responsive);
-$variants-border-collapse: (responsive);
-$variants-border-color: (responsive, hover, focus);
-$variants-border-radius: (responsive);
-$variants-border-style: (responsive);
-$variants-border-width: (responsive);
-$variants-cursor: (responsive);
-$variants-display: (responsive);
-$variants-flex-direction: (responsive);
-$variants-flex-wrap: (responsive);
-$variants-align-items: (responsive);
-$variants-align-self: (responsive);
-$variants-justify-content: (responsive);
-$variants-align-content: (responsive);
-$variants-flex: (responsive);
-$variants-flex-grow: (responsive);
-$variants-flex-shrink: (responsive);
-$variants-order: (responsive);
-$variants-float: (responsive);
-$variants-font-family: (responsive);
-$variants-font-weight: (responsive, hover, focus);
-$variants-height: (responsive);
-$variants-line-height: (responsive);
-$variants-list-style-position: (responsive);
-$variants-list-style-type: (responsive);
-$variants-margin: (responsive);
-$variants-max-height: (responsive);
-$variants-max-width: (responsive);
-$variants-min-height: (responsive);
-$variants-min-width: (responsive);
-$variants-object-fit: (responsive);
-$variants-object-position: (responsive);
-$variants-opacity: (responsive);
-$variants-outline: (responsive, focus);
-$variants-overflow: (responsive);
-$variants-padding: (responsive);
-$variants-pointer-events: (responsive);
-$variants-position: (responsive);
-$variants-inset: (responsive);
-$variants-resize: (responsive);
-$variants-box-shadow: (responsive, hover, focus);
-$variants-fill: (responsive);
-$variants-stroke: (responsive);
-$variants-table-layout: (responsive);
-$variants-text-align: (responsive);
-$variants-text-color: (responsive, hover, focus);
-$variants-font-size: (responsive);
-$variants-font-style: (responsive);
-$variants-text-transform: (responsive);
-$variants-text-decoration: (responsive, hover, focus);
-$variants-font-smoothing: (responsive);
-$variants-letter-spacing: (responsive);
-$variants-user-select: (responsive);
-$variants-vertical-align: (responsive);
-$variants-visibility: (responsive);
-$variants-white-space: (responsive);
-$variants-word-break: (responsive);
-$variants-width: (responsive);
-$variants-z-index: (responsive);
+$variants-appearance: (
+  responsive
+);
+$variants-background-attachment: (
+  responsive
+);
+$variants-background-color: (
+  responsive,
+  hover,
+  focus
+);
+$variants-background-position: (
+  responsive
+);
+$variants-background-repeat: (
+  responsive
+);
+$variants-background-size: (
+  responsive
+);
+$variants-border-collapse: (
+  responsive
+);
+$variants-border-color: (
+  responsive,
+  hover,
+  focus
+);
+$variants-border-radius: (
+  responsive
+);
+$variants-border-style: (
+  responsive
+);
+$variants-border-width: (
+  responsive
+);
+$variants-cursor: (
+  responsive
+);
+$variants-display: (
+  responsive
+);
+$variants-flex-direction: (
+  responsive
+);
+$variants-flex-wrap: (
+  responsive
+);
+$variants-align-items: (
+  responsive
+);
+$variants-align-self: (
+  responsive
+);
+$variants-justify-content: (
+  responsive
+);
+$variants-align-content: (
+  responsive
+);
+$variants-flex: (
+  responsive
+);
+$variants-flex-grow: (
+  responsive
+);
+$variants-flex-shrink: (
+  responsive
+);
+$variants-order: (
+  responsive
+);
+$variants-float: (
+  responsive
+);
+$variants-font-family: (
+  responsive
+);
+$variants-font-weight: (
+  responsive,
+  hover,
+  focus
+);
+$variants-height: (
+  responsive
+);
+$variants-line-height: (
+  responsive
+);
+$variants-list-style-position: (
+  responsive
+);
+$variants-list-style-type: (
+  responsive
+);
+$variants-margin: (
+  responsive
+);
+$variants-max-height: (
+  responsive
+);
+$variants-max-width: (
+  responsive
+);
+$variants-min-height: (
+  responsive
+);
+$variants-min-width: (
+  responsive
+);
+$variants-object-fit: (
+  responsive
+);
+$variants-object-position: (
+  responsive
+);
+$variants-opacity: (
+  responsive
+);
+$variants-outline: (
+  responsive,
+  focus
+);
+$variants-overflow: (
+  responsive
+);
+$variants-padding: (
+  responsive
+);
+$variants-pointer-events: (
+  responsive
+);
+$variants-position: (
+  responsive
+);
+$variants-inset: (
+  responsive
+);
+$variants-resize: (
+  responsive
+);
+$variants-box-shadow: (
+  responsive,
+  hover,
+  focus
+);
+$variants-fill: (
+  responsive
+);
+$variants-stroke: (
+  responsive
+);
+$variants-table-layout: (
+  responsive
+);
+$variants-text-align: (
+  responsive
+);
+$variants-text-color: (
+  responsive,
+  hover,
+  focus
+);
+$variants-font-size: (
+  responsive
+);
+$variants-font-style: (
+  responsive
+);
+$variants-text-transform: (
+  responsive
+);
+$variants-text-decoration: (
+  responsive,
+  hover,
+  focus
+);
+$variants-font-smoothing: (
+  responsive
+);
+$variants-letter-spacing: (
+  responsive
+);
+$variants-user-select: (
+  responsive
+);
+$variants-vertical-align: (
+  responsive
+);
+$variants-visibility: (
+  responsive
+);
+$variants-white-space: (
+  responsive
+);
+$variants-word-break: (
+  responsive
+);
+$variants-width: (
+  responsive
+);
+$variants-z-index: (
+  responsive
+);
 
 $core-plugins-appearance: true;
 $core-plugins-background-attachment: true;
