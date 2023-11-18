@@ -131,8 +131,9 @@ git push YOUR_REPO_URL main
 
 This web application is still on its build phase. Here are some of the things that needs to be finished:
 
-1. Add vertical line and pulse to Experience component
-2. Add animation to buttons and other clickables
+1. Add vertical line and pulse to Experience component.
+2. Add animation to buttons and other clickables.
+3. Add unit tests for contact form validation.
 
 -----
 
