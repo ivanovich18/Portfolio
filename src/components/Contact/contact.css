@@ -71,3 +71,14 @@
         margin-bottom: 4rem;
     }
 }
+
+/* Media Query for Tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .contact {
+        height: 43rem;
+        width: 100vw;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 4rem;
+    }
+}
