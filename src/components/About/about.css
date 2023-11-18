@@ -113,6 +113,12 @@ width: 60%;
         font-size: 1.25rem;
     }
 
+    .aboutImage{
+        object-fit: cover;
+        width: 20rem;
+        height: 20rem;
+    }
+
     .buttons {
         margin: 1rem;
         flex-direction: row;
