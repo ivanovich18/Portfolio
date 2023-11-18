@@ -112,45 +112,6 @@
     width: 2.5rem;
 }
 
-/* 
-
-    @media (min-width: 320px) {
-
-    .mobileMenu {
-        display: flex;
-    }
-
-    .navBar {
-        height: 3.7rem;
-        width: 100vw;
-        margin: 0 auto;
-        padding: 2rem 1rem;
-        position: sticky;
-        top: 0;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        background-color: red;
-    }
-
-    .divider {
-        display: none;
-    }
-
-    .title {
-        display: none;
-    }
-
-    .desktopMenuBtn {
-        display: none;
-    }
-
-    .navCenter {
-        display: none;
-    }
-
-*/
-
 /* Media Query for Mobile Devices */
 @media screen and (max-width: 720px) {
 
@@ -160,6 +121,12 @@
 
     .divider, .title, .navCenter, .desktopMenuBtn {
         display: none;
+    }
+
+    .navBar {
+        height: 4.3rem;
+        width: 100vw;
+        padding: 1rem 2rem;
     }
 }
 
