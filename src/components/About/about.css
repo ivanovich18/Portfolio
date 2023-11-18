@@ -93,7 +93,7 @@ width: 60%;
 @media screen and (max-width: 720px) {
 
     .aboutPage {
-        height: 79rem;
+        height: 87rem;
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
