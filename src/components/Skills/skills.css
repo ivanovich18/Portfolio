@@ -46,6 +46,17 @@
   .logo-slider img {
     width: 5.5rem;
     height: 5.5rem;
+  }
 }
 
+/* Media Query for Tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .logo {
+    height: 12rem;
+  }
+
+  .logo-slider img {
+    width: 6rem;
+    height: 6rem;
+  }
 }

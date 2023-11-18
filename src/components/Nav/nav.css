@@ -154,26 +154,11 @@
 /* Media Query for Mobile Devices */
 @media screen and (max-width: 720px) {
 
-    .navBar {
-    }
-
     .mobileMenu {
         display: flex;
     }
 
-    .divider {
-        display: none;
-    }
-
-    .title {
-        display: none;
-    }
-
-    .navCenter {
-        display: none;
-    }
-
-    .desktopMenuBtn {
+    .divider, .title, .navCenter, .desktopMenuBtn {
         display: none;
     }
 }
@@ -181,9 +166,11 @@
 /* Media Query for Tablets */
 @media (min-width: 768px) and (max-width: 1023px) {
     /* Add specific styles for tablets if needed */
-}
-
-/* Media Query for Larger Screens */
-@media (min-width: 1024px) {
-    /* Add specific styles for larger screens if needed */
+    .divider, .title, .navCenter, .desktopMenuBtn {
+        display: none;
+    }
+    
+    .mobileMenu {
+        display: flex;
+    }
 }

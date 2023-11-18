@@ -74,3 +74,33 @@ footer {
         margin-top: 2rem;
     }
 }
+
+/* Media Query for Tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .projects {
+        height: 141rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+        gap: 4rem;
+    }
+
+    .projectShowcase {
+        margin-top: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+    }
+
+    .projectPic img{
+        width: 85vw;
+    }
+
+    .projectDiv {
+        margin-top: 2rem;
+    }
+}
