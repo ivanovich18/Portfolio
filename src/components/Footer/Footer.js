@@ -23,10 +23,10 @@ function Footer() {
                 <div className='topRight'>
                     <a href='mailto:ivangsuralta@gmail.com' target='_blank'><MdEmail className='socialIcons mail' /></a>
                     <a href='https://www.linkedin.com/in/ivan-suralta/' target='_blank'><BsLinkedin className='socialIcons' /></a>
-                    <a href='https://github.com/ivanovich18' target='_blank'><BsGithub className='socialIcons' /></a>
-                    <a href='https://www.instagram.com/itsivansuralta/' target='_blank'><BsInstagram className='socialIcons' /></a>
-                    <a href='https://www.facebook.com/ivanovich0808' target='_blank'><BsFacebook className='socialIcons' /></a>
-                    <a href='https://twitter.com/ivanovich0808' target='_blank'><FaXTwitter className='socialIcons' /></a>
+                    <a href='https://github.com/ivanovich18' target='_blank'><BsGithub className='socialIcons github' /></a>
+                    <a href='https://www.instagram.com/itsivansuralta/' target='_blank'><BsInstagram className='socialIcons instagram' /></a>
+                    <a href='https://www.facebook.com/ivanovich0808' target='_blank'><BsFacebook className='socialIcons facebook' /></a>
+                    <a href='https://twitter.com/ivanovich0808' target='_blank'><FaXTwitter className='socialIcons twitter' /></a>
                 </div>
             </section>
             <div className='dividerBottomSolid'></div>

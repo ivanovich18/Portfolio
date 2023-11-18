@@ -21,7 +21,7 @@ function Contact() {
 
     return (
         <section id='contact' className='contact'>
-            <h2 className='header2'>Contact Me</h2>
+            <h2 className='header2 smallerHeader'>Contact Me</h2>
             <p>I am always free for collaboration.</p>
             <p>Whether you need help for projects or other things, send me a message and let's chat.</p>
             <form className='contactForm' ref={form} onSubmit={sendEmail}>

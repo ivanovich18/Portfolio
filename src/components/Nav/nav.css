@@ -45,7 +45,7 @@
     font-family: 'Product Sans Medium', sans-serif;
 }
 
-.desktopLinkItems:hover{
+.desktopLinkItems:hover, .mobileItem:hover{
     padding-bottom: 0.3rem;
     border-bottom: 3px solid white;
 }
@@ -78,4 +78,112 @@
 .navCenter .active {
     padding-bottom: 0.3rem;
     border-bottom: 3px solid white;
+}
+
+.navMenu .active {
+    padding-bottom: 0.3rem;
+    border-bottom: 3px solid white;
+}
+
+.navMenu {
+    position: absolute;
+    top: 4.7rem;
+    right: 1.5rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background-color: #000;
+}
+
+.mobileItem {
+    color: #FFF;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    background-color: #161B22;;
+}
+
+.mobileMenu {
+    display:none;
+    object-fit: cover;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+/* 
+
+    @media (min-width: 320px) {
+
+    .mobileMenu {
+        display: flex;
+    }
+
+    .navBar {
+        height: 3.7rem;
+        width: 100vw;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+        position: sticky;
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: red;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    .title {
+        display: none;
+    }
+
+    .desktopMenuBtn {
+        display: none;
+    }
+
+    .navCenter {
+        display: none;
+    }
+
+*/
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 720px) {
+
+    .navBar {
+    }
+
+    .mobileMenu {
+        display: flex;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    .title {
+        display: none;
+    }
+
+    .navCenter {
+        display: none;
+    }
+
+    .desktopMenuBtn {
+        display: none;
+    }
+}
+
+/* Media Query for Tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Add specific styles for tablets if needed */
+}
+
+/* Media Query for Larger Screens */
+@media (min-width: 1024px) {
+    /* Add specific styles for larger screens if needed */
 }

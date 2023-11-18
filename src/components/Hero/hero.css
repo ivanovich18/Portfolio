@@ -68,3 +68,46 @@
 .heroBigText:hover {
     transform: translateY(-5px);
 }
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 720px) {
+
+    .hero {
+        height: 49rem;
+    }
+
+    .serviceAndLocation {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .service, .location {
+        font-size: 1.2rem;
+    }
+
+    .heroBigText {
+        margin: 1.2rem 0;
+    }
+
+    .heroBottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .heroBottom .bottomText {
+        font-size: 1.5rem;
+    }
+
+    .heroDivider {
+        margin-top: 2rem;
+    }
+
+    .bigHeroImg {
+    object-position: 45% bottom;
+    }
+
+}

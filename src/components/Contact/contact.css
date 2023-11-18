@@ -41,8 +41,6 @@
     font-size: 1.5rem;
 }
 
-
-
 .contactForm {
     display: flex;
     flex-direction: column;
@@ -61,4 +59,15 @@
     border-radius: 0.5rem;
     cursor: pointer;
     margin-top: 3rem;
+}
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width:720px) {
+    .contact {
+        height: 46rem;
+        width: 100vw;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 4rem;
+    }
 }

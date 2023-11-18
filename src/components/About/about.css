@@ -88,3 +88,46 @@ width: 60%;
     fill: #000;
     font-size: larger;
 }
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 720px) {
+
+    .aboutPage {
+        height: 79rem;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding: 0rem;
+        gap: 0rem;
+    }
+
+    .aboutRight {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text3 {
+        text-align: center;
+    }
+
+    .buttons {
+        margin: 1rem;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .badges {
+        margin-top: 2.2rem;
+        cursor: pointer;
+    }
+
+    .aboutImage {
+        margin-top: 1.5rem;
+    }
+
+    .aboutButtons {
+        margin-top: 1ch;
+    }
+}

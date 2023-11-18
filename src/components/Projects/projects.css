@@ -43,3 +43,34 @@ footer {
 .projectDiv {
     margin-top: 7rem;
 }
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 720px) {
+
+    .projects {
+        height: 85rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+        gap: 2rem;
+    }
+
+    .projectShowcase {
+        margin-top: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .projectPic img{
+        width: 85vw;
+    }
+
+    .projectDiv {
+        margin-top: 2rem;
+    }
+}

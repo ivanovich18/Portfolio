@@ -16,8 +16,6 @@ import npm from '../../assets/slider-photos/NPM.png';
 import ts from '../../assets/slider-photos/TypeScript.png';
 import vscode from '../../assets/slider-photos/Visual Studio Code 2019.png';
 
-
-
 function Skills() {
     return (
         <section id='skills' className='logo'>

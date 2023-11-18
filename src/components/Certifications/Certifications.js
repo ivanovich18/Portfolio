@@ -7,7 +7,7 @@ import { BiLinkExternal } from "react-icons/bi";
 function Certifications() {
     return (
         <section id='certifications' class='certifications'>
-            <h2 className='header2'>Certifications</h2>
+            <h2 className='header2 smallerHeader'>Certifications</h2>
             <section className='certDiv'>
                 <div class='certLeft'>
                     <h3 className='header3'>Meta Front-End Developer Professional Certificate</h3>
@@ -61,17 +61,17 @@ function Certifications() {
                 <div className='otherLeft'>
                     <div className='other'>
                         <h3>
-                            AWS Community Day - Cebu 2023 Volunteer
+                            AWS Community Day - Cebu 2023
                             <span>
                                 <a href='https://drive.google.com/file/d/1tZ_ssTlnqUGq9HZ5HvSTT0ZDlogXrnO6/view?usp=drive_link' target='_blank'>
                                     <button><BiLinkExternal class='otherLink' /></button>
                                 </a>
                             </span>
                         </h3>
-                        <p>Amazon Web Services</p>
+                        <p>Amazon Web Services - Volunteer</p>
                     </div>
                     <div className='other'>
-                        <h3>WordPress with Divi Builder Workshop<span>
+                        <h3>WordPress with Divi Workshop<span>
                             <a href='https://drive.google.com/file/d/1jSocaHcTxqb9iSiipKc0I0SK8eKprp6c/view?usp=drive_link' target='_blank'>
                                 <button><BiLinkExternal class='otherLink' /></button>
                             </a>
@@ -110,7 +110,7 @@ function Certifications() {
                         <p>Meta</p>
                     </div>
                     <div className='other'>
-                        <h3>Introduction to Front-End Development
+                        <h3>Introduction to Frontend Development
                             <span>
                                 <a href='https://coursera.org/verify/WUCM6P22GTVC' target='_blank'>
                                     <button><BiLinkExternal class='otherLink' /></button>

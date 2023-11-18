@@ -85,3 +85,52 @@
 .expDivider {
     margin-top: 2rem;
 }
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 720px) {
+
+    .experience {
+        width: 100vw;
+        max-width: 80rem;
+        height: 75rem;
+        row-gap: 2.5rem;
+        overflow: hidden;
+        margin-top: 2rem;
+    }
+
+    .header2 {
+        font-size: 3.3rem;
+    }
+
+    .header3 {
+        margin-top: 1rem;
+    }
+
+    .expContainer {
+        width: 85vw;
+        height: 25rem;
+        flex-direction: column-reverse;
+        padding: 1.25rem 1.25rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .expLeft {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .expSpan {
+        display: block;
+    }
+
+    .expRight {
+        display: flex;
+        width: 50%;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+}
