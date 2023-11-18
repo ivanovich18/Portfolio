@@ -92,7 +92,54 @@
         justify-content: center;
         gap: 1rem;
     }
-    
+
+    .botRight {
+        display: none;
+    }
+
+    .topFooter, .botFooter {
+        /* padding: 1rem 2rem; */
+        height: 6rem;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .topLeft {
+        gap: 0rem;
+    }
+}
+
+/* Media Query for Tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .footerDivider, .footerTitle {
+        display: none;
+    }
+
+    .socialIcons {
+        width: 2.5rem;
+        height: 2.5rem;
+        cursor: pointer;
+    }
+
+    .mail {
+        width: 3.5rem;
+        height: 3.5rem;
+        cursor: pointer;
+    }
+
+    .footerLogo {
+        display: none;
+    }
+
+    .topRight {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
 
     .botRight {
         display: none;
