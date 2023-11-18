@@ -120,7 +120,6 @@ width: 60%;
 
     .badges {
         margin-top: 2.2rem;
-        cursor: pointer;
     }
 
     .aboutImage {
@@ -130,4 +129,29 @@ width: 60%;
     .aboutButtons {
         margin-top: 1ch;
     }
+}
+
+/* Media Query for Tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .aboutPage {
+        height: 65rem;
+        width: 92vw;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding: 0rem;
+        margin-top: 3rem;
+    }
+
+    .aboutRight {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text3 {
+        text-align: center;
+    }
+
 }
