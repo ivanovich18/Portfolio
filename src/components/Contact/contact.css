@@ -64,11 +64,17 @@
 /* Media Query for Mobile Devices */
 @media screen and (max-width:720px) {
     .contact {
-        height: 46rem;
+        height: 60rem;
         width: 100vw;
         text-align: center;
         margin-top: 1rem;
-        margin-bottom: 4rem;
+        margin-bottom: 0rem;
+    }
+
+    .submitBtn {
+        padding: 0.75rem 3.5rem;
+        border-radius: 0.5rem;
+        margin-top: 2rem;
     }
 }
 
