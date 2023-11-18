@@ -1,3 +1,5 @@
+/* Tailwind is not yet working, I don't know why */
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
