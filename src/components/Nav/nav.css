@@ -75,6 +75,11 @@
     font-size: larger;
 }
 
+.navCenter{
+    display: flex;
+    justify-content: space-around;
+}
+
 .navCenter .active {
     padding-bottom: 0.3rem;
     border-bottom: 3px solid white;
