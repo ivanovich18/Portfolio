@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import './nav.css';
 import logo from '../../assets/favicon_io/android-chrome-192x192.png';
 import { Link } from 'react-scroll';
@@ -14,12 +14,12 @@ function Nav() {
 
     const [showMenu, setShowMenu] = useState(false);
 
-    useEffect(()=>{
+    useEffect(() => {
         AOS.init({
             once: true,
             duration: 2000
         })
-    },[])
+    }, [])
 
     return (
         <nav className="navBar">
