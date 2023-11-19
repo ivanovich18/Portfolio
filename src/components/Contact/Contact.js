@@ -1,8 +1,19 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import '../Contact/contact.css'
 import emailjs from '@emailjs/browser';
 
+import AOS from "aos";
+import 'aos/dist/aos.css';
+
 function Contact() {
+
+    useEffect(() => {
+        AOS.init({
+            once: true,
+            duration: 2000
+        })
+    }, [])
+
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -21,15 +32,15 @@ function Contact() {
 
     return (
         <section id='contact' className='contact'>
-            <h2 className='header2 smallerHeader'>Contact Me</h2>
-            <p>I am always free for collaboration.</p>
-            <p>Whether you need help for projects or other things, send me a message and let's chat.</p>
+            <h2 className='header2 smallerHeader' data-aos="fade-down" data-aos-duration="600" data-aos-delay="300">Contact Me</h2>
+            <p data-aos="zoom-in" data-aos-duration="600" data-aos-delay="700">I am always free for collaboration.</p>
+            <p data-aos="zoom-in" data-aos-duration="600" data-aos-delay="900">Whether you need help for projects or other things, send me a message and let's chat.</p>
             <form className='contactForm' ref={form} onSubmit={sendEmail}>
-                <input required type='text' className='name' placeholder='Your Name' name='from_name' />
-                <input required type='email' className='email' placeholder='Your Email' name='from_email' />
-                <textarea required className='message' name='message' rows='5' placeholder='Your Message' ></textarea>
+                <input required type='text' className='name' placeholder='Your Name' name='from_name' data-aos="flip-left" data-aos-duration="600" data-aos-delay="1100" />
+                <input required type='email' className='email' placeholder='Your Email' name='from_email' data-aos="flip-left" data-aos-duration="600" data-aos-delay="1300" />
+                <textarea required className='message' data-aos="flip-left" data-aos-duration="600" data-aos-delay="1500" name='message' rows='5' placeholder='Your Message' ></textarea>
                 <div>
-                    <button type='submit' value='Send' className='submitBtn'>Submit</button>
+                    <button type='submit' value='Send' className='submitBtn' data-aos="zoom-in" data-aos-duration="600" data-aos-delay="1700">Submit</button>
                 </div>
             </form>
 
