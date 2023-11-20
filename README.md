@@ -112,8 +112,9 @@ Here is a quick look at the folder structure of this project.
 
 1. ReactJS
 2. React-icons
-3. Figma
-4. Jest for Unit Testing
+3. AOS
+4. Figma
+5. Jest for Unit Testing
 
 ## 🧑🏻‍💻 Contributing
 
@@ -132,8 +133,7 @@ git push YOUR_REPO_URL main
 This web application is still on its build phase. Here are some of the things that needs to be finished:
 
 1. Add vertical line and pulse to Experience component.
-2. Add animation to buttons and other clickables.
-3. Add unit tests for contact form validation.
+2. Add unit tests for contact form validation.
 
 -----
 
