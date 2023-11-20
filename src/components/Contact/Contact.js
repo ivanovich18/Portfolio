@@ -33,14 +33,14 @@ function Contact() {
     return (
         <section id='contact' className='contact'>
             <h2 className='header2 smallerHeader' data-aos="fade-down" data-aos-duration="600" data-aos-delay="300">Contact Me</h2>
-            <p data-aos="zoom-in" data-aos-duration="600" data-aos-delay="700">I am always free for collaboration.</p>
-            <p data-aos="zoom-in" data-aos-duration="600" data-aos-delay="900">Whether you need help for projects or other things, send me a message and let's chat.</p>
+            <p data-aos="zoom-in" data-aos-duration="600" data-aos-delay="500">I am always free for collaboration.</p>
+            <p data-aos="zoom-in" data-aos-duration="600" data-aos-delay="600">Whether you need help for projects or other things, send me a message and let's chat.</p>
             <form className='contactForm' ref={form} onSubmit={sendEmail}>
-                <input required type='text' className='name' placeholder='Your Name' name='from_name' data-aos="flip-left" data-aos-duration="600" data-aos-delay="1100" />
-                <input required type='email' className='email' placeholder='Your Email' name='from_email' data-aos="flip-left" data-aos-duration="600" data-aos-delay="1300" />
-                <textarea required className='message' data-aos="flip-left" data-aos-duration="600" data-aos-delay="1500" name='message' rows='5' placeholder='Your Message' ></textarea>
+                <input required type='text' className='name' placeholder='Your Name' name='from_name' data-aos="flip-left" data-aos-duration="600" data-aos-delay="700" />
+                <input required type='email' className='email' placeholder='Your Email' name='from_email' data-aos="flip-left" data-aos-duration="600" data-aos-delay="800" />
+                <textarea required className='message' data-aos="flip-left" data-aos-duration="600" data-aos-delay="900" name='message' rows='5' placeholder='Your Message' ></textarea>
                 <div>
-                    <button type='submit' value='Send' className='submitBtn' data-aos="zoom-in" data-aos-duration="600" data-aos-delay="1700">Submit</button>
+                    <button type='submit' value='Send' className='submitBtn' data-aos="zoom-in" data-aos-duration="600" data-aos-delay="1000">Submit</button>
                 </div>
             </form>
 
