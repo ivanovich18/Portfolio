@@ -36,7 +36,7 @@ function Certifications() {
                     <img src={courseraPic} alt='Coursera Logo' />
                 </div>
             </section>
-            <section className='certDiv' data-aos="flip-left" data-aos-duration="600" data-aos-delay="700">
+            <section className='certDiv' data-aos="flip-left" data-aos-duration="600" data-aos-delay="600">
                 <div class='certLeft'>
                     <h3 className='header3'>CS50's Introduction to Computer Science (2023)</h3>
                     <p>CS50, Harvard University</p>
@@ -53,7 +53,7 @@ function Certifications() {
                     <img src={harvardPic} alt='Harvard University Logo' />
                 </div>
             </section>
-            <section className='certDiv' data-aos="flip-left" data-aos-duration="600" data-aos-delay="900">
+            <section className='certDiv' data-aos="flip-left" data-aos-duration="600" data-aos-delay="700">
                 <div class='certLeft'>
                     <h3 className='header3'>Principles of Graphic Design</h3>
                     <p>University of the Philippines Open University</p>
@@ -69,7 +69,7 @@ function Certifications() {
                     <img src={uniOfPhilippinesOU} alt='University of the Philippines Open University Logo' />
                 </div>
             </section >
-            <section className='otherCerts' data-aos="flip-left" data-aos-duration="600" data-aos-delay="1100">
+            <section className='otherCerts' data-aos="flip-left" data-aos-duration="600" data-aos-delay="800">
                 <div className='otherLeft'>
                     <div className='other'>
                         <h3>
