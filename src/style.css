@@ -58,3 +58,7 @@ html::-webkit-scrollbar-thumb:active {
     background: rgb(68, 68, 68);
     border-radius: 10px;
   } */
+
+:root {
+    color-scheme: dark;
+}
