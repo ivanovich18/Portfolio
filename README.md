@@ -113,7 +113,7 @@ Here is a quick look at the folder structure of this project.
 1. ReactJS
 2. React-icons
 3. AOS
-4. Figma
+4. EmailJS
 5. Jest for Unit Testing
 
 ## 🧑🏻‍💻 Contributing
