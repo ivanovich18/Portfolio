@@ -61,6 +61,14 @@
     margin-top: 3rem;
 }
 
+.submitBtn:disabled {
+    opacity: 0.5;
+    border: 1px solid #fff;
+    background-color: #161B22;
+    color: #fff;
+    cursor: not-allowed;
+}
+
 /* Media Query for Mobile Devices */
 @media screen and (max-width:720px) {
     .contact {
