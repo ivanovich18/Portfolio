@@ -139,6 +139,7 @@ This web application is still on its build phase. Here are some of the things th
 5. Fix some bugs for the hover effects.
 6. Check some bugs.
 7. Polish website according to instructor.
+8. Make text background white and text color black when selecting.
 
 -----
 
