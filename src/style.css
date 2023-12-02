@@ -8,6 +8,11 @@
     font-family: 'Product Sans', sans-serif;
 }
 
+p::selection, h1::selection, h2::selection, h3::selection, a::selection {
+    background-color: #ffffff;
+    color:#161B22;
+}
+
 body {
     background: #161B22;
     color: #ffffff;
