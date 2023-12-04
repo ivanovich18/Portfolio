@@ -17,6 +17,7 @@ function Contact() {
 
   const [isFormValid, setIsFormValid] = useState(false);
   const [isSendingEmail, setIsSendingEmail] = useState(false);
+  const [isSubmitted, setIsSubmitted] = useState(false);
 
 
   function showSnackbar() {
@@ -40,6 +41,7 @@ function Contact() {
           showSnackbar();
           e.target.reset();
           setIsSendingEmail(false);
+          setIsSubmitted(true);
         },
         (error) => {
           console.log(error.text);
@@ -106,7 +108,7 @@ function Contact() {
           onChange={handleInputChange}
         ></textarea>
         <div>
-          <button type="submit" value="Send" className="submitBtn" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="1000" disabled={!isFormValid || isSendingEmail}>
+          <button type="submit" value="Send" className="submitBtn" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="1000" disabled={!isFormValid || isSendingEmail || isSubmitted}>
             Submit
           </button>
         </div>
