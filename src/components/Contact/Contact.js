@@ -16,23 +16,41 @@ function Contact() {
   const form = useRef();
 
   const [isFormValid, setIsFormValid] = useState(false);
+  const [isSendingEmail, setIsSendingEmail] = useState(false);
+
+
+  function showSnackbar() {
+    var x = document.getElementsByClassName('snackbar')[0];
+
+    x.classList.add('show');
+
+    setTimeout(function(){ x.classList.remove('show'); }, 3000);
+  }
 
   const sendEmail = (e) => {
     e.preventDefault();
+
+    setIsSendingEmail(true);
 
     emailjs
       .sendForm('service_s81q0il', 'template_hgp5xsr', form.current, 'GXYsuqagPT2dk0x13')
       .then(
         (result) => {
           console.log(result.text);
-          alert('Email sent successfully!');
+          showSnackbar();
           e.target.reset();
+          setIsSendingEmail(false);
         },
         (error) => {
           console.log(error.text);
           alert('Please fill all fields');
+          setIsSendingEmail(false);
         }
-      );
+      )
+      .catch((error) => {
+        console.log(error);
+        setIsSendingEmail(false);
+      });
   };
 
   const handleInputChange = () => {
@@ -88,10 +106,11 @@ function Contact() {
           onChange={handleInputChange}
         ></textarea>
         <div>
-          <button type="submit" value="Send" className="submitBtn" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="1000" disabled={!isFormValid}>
+          <button type="submit" value="Send" className="submitBtn" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="1000" disabled={!isFormValid || isSendingEmail}>
             Submit
           </button>
         </div>
+        <div className='snackbar'>Message successfully sent!</div>
       </form>
     </section>
   );
