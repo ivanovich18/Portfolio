@@ -69,48 +69,6 @@
     cursor: not-allowed;
 }
 
-.snackbar {
-    visibility: hidden;
-    min-width: 10rem;
-    padding: 1rem;
-    background-color: #fff;
-    color:#000;
-    border-radius: 0.5rem;
-    font-size: 1.25rem;
-    position: fixed;
-    z-index: 5;
-    left: 50%;
-    top: 90%;
-    transform: translateX(-50%);
-}
-
-.snackbar.show {
-    visibility: visible;
-    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
-  animation: fadein 0.5s, fadeout 0.5s 2.5s;
-}
-
-/* Animations to fade the snackbar in and out */
-@-webkit-keyframes fadein {
-    from {bottom: 0; opacity: 0;}
-    to {bottom: 30px; opacity: 1;}
-  }
-
-  @keyframes fadein {
-    from {bottom: 0; opacity: 0;}
-    to {bottom: 30px; opacity: 1;}
-  }
-
-  @-webkit-keyframes fadeout {
-    from {bottom: 30px; opacity: 1;}
-    to {bottom: 0; opacity: 0;}
-  }
-
-  @keyframes fadeout {
-    from {bottom: 30px; opacity: 1;}
-    to {bottom: 0; opacity: 0;}
-  }
-
 /* Media Query for Mobile Devices */
 @media screen and (max-width:720px) {
     .contact {
