@@ -16,7 +16,7 @@
 
 <img src="./src/assets/others/preview.png"/>
 
-*NOTE: If you choose to use this site as a template for your own website, providing a link in the footer would be greatly appreciated as credit to the creator.*
+_NOTE: If you choose to use this site as a template for your own website, providing a link in the footer would be greatly appreciated as credit to the creator._
 
 ## 🚀 Quick Start
 
@@ -49,13 +49,14 @@ npm install
 ### Step 3: Start Development Server
 
 Then, start the development server
+
 ```bash
 npm start
 ```
+
 ## 📂 What's Inside?
 
 Here is a quick look at the folder structure of this project.
-
 
     ├── build
     ├── dist
@@ -139,8 +140,8 @@ This web application is still on its build phase. Here are some of the things th
 5. Fix some bugs for the hover effects.
 6. Check some bugs.
 7. Polish website according to instructor.
-8. Make text background white and text color black when selecting.
+8. Add a modal view when clicking the project card.
 
------
+---
 
 Made with ❤️ by [Ivan Suralta](https://github.com/ivanovich18)
