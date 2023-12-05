@@ -33,7 +33,6 @@ function Contact() {
   const [isSendingEmail, setIsSendingEmail] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-
   // function showSnackbar() {
   //   var x = document.getElementsByClassName('snackbar')[0];
 
@@ -56,6 +55,7 @@ function Contact() {
           setIsSendingEmail(false);
           setIsSubmitted(true);
           handleClickEvent();
+          setTimeout(() => setIsSubmitted(false), 5000);
         },
         (error) => {
           console.log(error.text);
