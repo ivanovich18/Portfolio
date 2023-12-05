@@ -1,6 +1,9 @@
 import React, { useRef, useEffect, useState } from 'react';
 import '../Contact/contact.css';
 import emailjs from '@emailjs/browser';
+import IconButton from "@material-ui/core/IconButton";
+import Snackbar from "@material-ui/core/Snackbar";
+import CloseIcon from "@material-ui/icons/Close";
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -15,18 +18,29 @@ function Contact() {
 
   const form = useRef();
 
+  const [open, setOpen] = useState(false);
+ 
+  const handleToClose = (event, reason) => {
+      if ("clickaway" == reason) return;
+      setOpen(false);
+  };
+
+  const handleClickEvent = () => {
+      setOpen(true);
+  };
+
   const [isFormValid, setIsFormValid] = useState(false);
   const [isSendingEmail, setIsSendingEmail] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
 
 
-  function showSnackbar() {
-    var x = document.getElementsByClassName('snackbar')[0];
+  // function showSnackbar() {
+  //   var x = document.getElementsByClassName('snackbar')[0];
 
-    x.classList.add('show');
+  //   x.classList.add('show');
 
-    setTimeout(function(){ x.classList.remove('show'); }, 3000);
-  }
+  //   setTimeout(function(){ x.classList.remove('show'); }, 3000);
+  // }
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -38,10 +52,10 @@ function Contact() {
       .then(
         (result) => {
           console.log(result.text);
-          showSnackbar();
           e.target.reset();
           setIsSendingEmail(false);
           setIsSubmitted(true);
+          handleClickEvent();
         },
         (error) => {
           console.log(error.text);
@@ -112,7 +126,28 @@ function Contact() {
             Submit
           </button>
         </div>
-        <div className='snackbar'>Message successfully sent!</div>
+        <Snackbar
+                anchorOrigin={{
+                    horizontal: "left",
+                    vertical: "bottom",
+                }}
+                open={open}
+                autoHideDuration={5000}
+                message="Message successfully sent!"
+                onClose={handleToClose}
+                action={
+                    <React.Fragment>
+                        <IconButton
+                            size="small"
+                            aria-label="close"
+                            color="inherit"
+                            onClick={handleToClose}
+                        >
+                            <CloseIcon fontSize="small" />
+                        </IconButton>
+                    </React.Fragment>
+                }
+            />
       </form>
     </section>
   );
