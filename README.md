@@ -7,7 +7,7 @@
 <p align="center">Website Portfolio made using ReactJS</p>
 
 <div align="center">
-    
+
 [![pages-build-deployment](https://github.com/ivanovich18/Portfolio/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/ivanovich18/Portfolio/actions/workflows/pages/pages-build-deployment)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![site](https://img.shields.io/badge/site-online-green)
