@@ -37,15 +37,59 @@
     justify-content: center;
     align-items: center;
     transition: transform 0.3s ease-in-out;
+    z-index: 1;
+}
+
+.verticalLine {
+    width: 0.125rem;
+    height: 6rem;
+    border-left: 3px solid #ffffff94;
+    position: absolute;
+}
+
+.pulse {
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    animation: pulse-animation 0.75s infinite;
+}
+
+@keyframes pulse-animation {
+    0% {
+      box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+    }
+    100% {
+      box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+    }
+  }
+
+.pulseOne {
+    top: 133.2rem;
+    z-index: 2;
+}
+
+.pulseTwo {
+    top: 147.7rem;
+    z-index: 2;
+}
+
+.verticalLineOne {
+    top: 133.5rem;
+}
+
+.verticalLineTwo {
+    top: 148rem;
 }
 
 /* .expContainer:first-of-type {
     margin-top: rem;
 } */
 
-.expContainer:hover {
+/* .expContainer:hover {
     transform: translateY(-5px) !important;
-}
+} */
 
 .expDetails {
     margin-top: 1rem;
@@ -76,23 +120,16 @@
     color: #000;
 }
 
-.verticalLine {
-    width: 0.125rem;
-    height: 4.375rem;
-    border-left: 3px solid white;
-}
-
 .expDivider {
     margin-top: 2rem;
 }
 
 /* Media Query for Mobile Devices */
 @media screen and (max-width: 720px) {
-
     .experience {
         width: 100vw;
         max-width: 80rem;
-        height: 80rem;
+        height: 94rem;
         row-gap: 2.5rem;
         overflow: hidden;
         margin-top: 2rem;
@@ -132,5 +169,40 @@
         margin: 0;
         justify-content: center;
         align-items: center;
+    }
+
+    .verticalLineOne {
+        top: 169rem;
+    }
+
+    .verticalLineTwo {
+        top: 198rem;
+    }
+
+    .pulseOne {
+        top: 171rem;
+    }
+    
+    .pulseTwo {
+        top: 198.5rem;
+    }
+}
+
+/* Media Query for Tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .verticalLineOne {
+        top: 154rem;
+    }
+
+    .verticalLineTwo {
+        top: 168rem;
+    }
+
+    .pulseOne {
+        top: 153.6rem;
+    }
+    
+    .pulseTwo {
+        top: 168.1rem;
     }
 }
