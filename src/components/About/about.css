@@ -81,7 +81,7 @@ width: 60%;
 }
 
 .aboutImage:hover, .gdscBadge:hover, .metaBadge:hover, .aboutButtons:hover {
-    transform: translateY(-5px);
+    transform: translateY(-5px) !important;
 }
 
 .aboutIcons {
