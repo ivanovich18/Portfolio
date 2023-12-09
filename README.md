@@ -133,13 +133,10 @@ git push YOUR_REPO_URL main
 
 This web application is still on its build phase. Here are some of the things that needs to be finished:
 
-1. Add vertical line and pulse to Experience component.
-2. Add unit tests for contact form validation.
-3. Add blog component, with admin dashboard for blog.
-4. Optimize assets esp. images for faster load on slow internet devices.
-5. Polish website according to instructor.
-6. Add a modal view when clicking the project card.
-7. Fix tablet view.
+1. Add unit tests for contact form validation.
+2. Add blog component, with admin dashboard for blog.
+3. Optimize assets esp. images for faster load on slow internet devices.
+4. Add a modal view when clicking the project card.
 
 ---
 
