@@ -29,7 +29,8 @@ function Experience() {
                     <img className='gdscLogo' src={gdscLogo} alt='GDSC Logo' />
                 </div>
             </section>
-            {/* <div className='verticalLine'></div> */}
+            <div className='pulse pulseOne'></div>
+            <div className='verticalLine verticalLineOne'></div>
             <section class='expContainer whiteSelection' data-aos="flip-left" data-aos-duration="600" data-aos-delay="600">
                 <div className='expLeft'>
                     <h3 className='header3'>Client Success Intern <span className='expSpan'>Aug 2023 - Sep 2023</span></h3>
@@ -40,6 +41,8 @@ function Experience() {
                     <img className='dashlabsLogo' src={dashlabsLogo} alt='Dashlabs.ai Logo' />
                 </div>
             </section>
+            <div className='pulse pulseTwo'></div>
+            <div className='verticalLine verticalLineTwo'></div>
             <section class='expContainer whiteSelection' data-aos="flip-left" data-aos-duration="600" data-aos-delay="700">
                 <div className='expLeft'>
                     <h3 className='header3'>Student <span className='expSpan'>September 2021 - present</span></h3>
