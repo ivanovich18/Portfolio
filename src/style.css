@@ -13,6 +13,11 @@ p::selection, h1::selection, h2::selection, h3::selection, a::selection {
     color:#161B22;
 }
 
+.whiteSelection p::selection, .whiteSelection h1::selection, .whiteSelection h2::selection, .whiteSelection h3::selection, .whiteSelection a::selection, .whiteSelection span::selection {
+    background-color: #161B22;
+    color:#ffffff;
+}
+
 body {
     background: #161B22;
     color: #ffffff;
