@@ -127,7 +127,7 @@
 @media screen and (max-width: 720px) {
 
     .certifications {
-        margin-top: 2rem;
+        margin-top: 4rem;
         height: 150rem;
         gap: 2rem;
     }
@@ -199,7 +199,7 @@
     }
 
     .certDiv {
-        width: 85vw;
+        width: 70vw;
         height: 26rem;
         display: flex;
         flex-direction: column-reverse;
@@ -234,7 +234,7 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        width: 85vw;
+        width: 70vw;
         height: 53rem;
         padding: 2rem 1.5rem 2rem 2rem;
     }
