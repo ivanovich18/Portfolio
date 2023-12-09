@@ -30,7 +30,7 @@ footer {
 }
 
 .projectPic:hover {
-    transform: translateY(-5px);
+    transform: translateY(-5px) !important;
 }
 
 .projects h3 {
