@@ -137,11 +137,9 @@ This web application is still on its build phase. Here are some of the things th
 2. Add unit tests for contact form validation.
 3. Add blog component, with admin dashboard for blog.
 4. Optimize assets esp. images for faster load on slow internet devices.
-5. Fix some bugs for the hover effects.
-6. Check some bugs.
-7. Polish website according to instructor.
-8. Add a modal view when clicking the project card.
-9. Fix tablet view.
+5. Polish website according to instructor.
+6. Add a modal view when clicking the project card.
+7. Fix tablet view.
 
 ---
 
