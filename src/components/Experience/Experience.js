@@ -19,7 +19,7 @@ function Experience() {
     return (
         <section id='experience' className='experience'>
             <h2 className='header2' data-aos="fade-down" data-aos-duration="600" data-aos-delay="300">Experience</h2>
-            <section className='expContainer' data-aos="flip-left" data-aos-duration="600" data-aos-delay="500">
+            <section className='expContainer whiteSelection' data-aos="flip-left" data-aos-duration="600" data-aos-delay="500">
                 <div className='expLeft'>
                     <h3 className='header3'>Lead <span className='expSpan'>Aug 2023 - present</span></h3>
                     <p>Google Developer Student Clubs - CTU</p>
@@ -30,7 +30,7 @@ function Experience() {
                 </div>
             </section>
             {/* <div className='verticalLine'></div> */}
-            <section class='expContainer' data-aos="flip-left" data-aos-duration="600" data-aos-delay="600">
+            <section class='expContainer whiteSelection' data-aos="flip-left" data-aos-duration="600" data-aos-delay="600">
                 <div className='expLeft'>
                     <h3 className='header3'>Client Success Intern <span className='expSpan'>Aug 2023 - Sep 2023</span></h3>
                     <p>Dashlabs.ai</p>
@@ -40,7 +40,7 @@ function Experience() {
                     <img className='dashlabsLogo' src={dashlabsLogo} alt='Dashlabs.ai Logo' />
                 </div>
             </section>
-            <section class='expContainer' data-aos="flip-left" data-aos-duration="600" data-aos-delay="700">
+            <section class='expContainer whiteSelection' data-aos="flip-left" data-aos-duration="600" data-aos-delay="700">
                 <div className='expLeft'>
                     <h3 className='header3'>Student <span className='expSpan'>September 2021 - present</span></h3>
                     <p>Cebu Technological University - Main Campus</p>
