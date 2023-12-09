@@ -141,7 +141,7 @@ This web application is still on its build phase. Here are some of the things th
 6. Check some bugs.
 7. Polish website according to instructor.
 8. Add a modal view when clicking the project card.
-9. Add a blog feature with admin dashboard (currently learning Meta backend course)
+9. Fix tablet view.
 
 ---
 
