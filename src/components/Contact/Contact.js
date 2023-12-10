@@ -33,40 +33,24 @@ function Contact() {
   const [isSendingEmail, setIsSendingEmail] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  // function showSnackbar() {
-  //   var x = document.getElementsByClassName('snackbar')[0];
-
-  //   x.classList.add('show');
-
-  //   setTimeout(function(){ x.classList.remove('show'); }, 3000);
-  // }
-
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
     e.preventDefault();
 
     setIsSendingEmail(true);
 
-    emailjs
-      .sendForm('service_s81q0il', 'template_hgp5xsr', form.current, 'GXYsuqagPT2dk0x13')
-      .then(
-        (result) => {
-          console.log(result.text);
-          e.target.reset();
-          setIsSendingEmail(false);
-          setIsSubmitted(true);
-          handleClickEvent();
-          setTimeout(() => setIsSubmitted(false), 5000);
-        },
-        (error) => {
-          console.log(error.text);
-          alert('Please fill all fields');
-          setIsSendingEmail(false);
-        }
-      )
-      .catch((error) => {
-        console.log(error);
-        setIsSendingEmail(false);
-      });
+    try {
+      const result = await emailjs.sendForm('service_s81q0il', 'template_hgp5xsr', form.current, 'GXYsuqagPT2dk0x13');
+      console.log(result.text);
+      e.target.reset();
+      setIsSendingEmail(false);
+      setIsSubmitted(true);
+      handleClickEvent();
+    } catch (error) {
+      console.log(error.text);
+      alert('Please fill all fields');
+      setIsSendingEmail(false);
+      setIsSubmitted(false);
+    }
   };
 
   const handleInputChange = () => {
@@ -76,6 +60,7 @@ function Contact() {
 
     const isValid = nameInput.value.trim() !== '' && emailInput.value.trim() !== '' && messageInput.value.trim() !== '';
     setIsFormValid(isValid);
+    setIsSubmitted(false);
   };
 
   return (
