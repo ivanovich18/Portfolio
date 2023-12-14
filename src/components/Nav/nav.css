@@ -143,7 +143,7 @@
     .divider, .title, .navCenter, .desktopMenuBtn {
         display: none;
     }
-    
+
     .mobileMenu {
         display: flex;
     }
