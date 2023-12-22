@@ -139,7 +139,7 @@ This web application is still on its build phase. Here are some of the things th
 4. Add a modal view when clicking the project card.
 5. Fix the laggy hover effect due to AOS.
 6. Make the nav bar 100% wide.
-
+7. Finalize for checking.
 ---
 
 Made with ❤️ by [Ivan Suralta](https://github.com/ivanovich18)
