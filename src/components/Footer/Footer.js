@@ -46,7 +46,7 @@ function Footer() {
             <section className='botFooter'>
                 <div className='botLeft'>
                     <AiOutlineCopyrightCircle className='copyrightLogo' />
-                    <p>2023 Ivan Suralta. All rights reserved.</p>
+                    <p>2024 Ivan Suralta. All rights reserved.</p>
                 </div>
                 <div className='botRight'>
                     <a href='https://github.com/ivanovich18/softdev1-portfolio-website/blob/main/LICENSE' target='_blank'><p>License</p></a>
