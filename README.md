@@ -134,12 +134,12 @@ git push YOUR_REPO_URL main
 This web application is still on its build phase. Here are some of the things that needs to be finished:
 
 1. Add unit tests for contact form validation.
-2. Add blog component, with admin dashboard for blog.
-3. Optimize assets esp. images for faster load on slow internet devices.
-4. Add a modal view when clicking the project card.
-5. Fix the laggy hover effect due to AOS.
-6. Make the nav bar 100% wide.
-7. Finalize for checking.
+2. Optimize assets esp. images for faster load on slow internet devices.
+3. Add a modal view when clicking the project card.
+4. Fix the laggy hover effect due to AOS.
+5. Make the nav bar 100% wide.
+6. Finalize for checking.
+
 ---
 
 Made with ❤️ by [Ivan Suralta](https://github.com/ivanovich18)
