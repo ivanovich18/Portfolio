@@ -22,14 +22,17 @@ function About() {
     return (
         <main id='about' className='aboutPage'>
             <section className='aboutLeft'>
-                <img className='aboutImage' data-aos="zoom-in-down" data-aos-duration="600" data-aos-delay="300" src={aboutMePic2} alt='Ivan portrait photo' />
+                <div data-aos="zoom-in-down" data-aos-duration="600" data-aos-delay="300">
+                <img className='aboutImage' src={aboutMePic2} alt='Ivan portrait photo' />
+                </div>
+                
 
                 <div className='badges'>
-                    <a href='https://www.credly.com/badges/8b5468c3-69ae-43d5-8d48-d43d7335e526/public_url' target='_blank'>
-                        <img className='metaBadge' data-aos="zoom-in-right" data-aos-duration="600" data-aos-delay="500" src={metaBadge} alt='Meta Front-end Developer Badge' />
+                    <a href='https://www.credly.com/badges/8b5468c3-69ae-43d5-8d48-d43d7335e526/public_url' target='_blank'  data-aos="zoom-in-right" data-aos-duration="600" data-aos-delay="500">
+                        <img className='metaBadge' src={metaBadge} alt='Meta Front-end Developer Badge' />
                     </a>
-                    <a href='https://g.dev/ivan-suralta' target='_blank'>
-                        <img className='gdscBadge' data-aos="zoom-in-left" data-aos-duration="600" data-aos-delay="700" src={gdscBadge} alt='GDSC Lead Badge' />
+                    <a href='https://g.dev/ivan-suralta' target='_blank'  data-aos="zoom-in-left" data-aos-duration="600" data-aos-delay="700" >
+                        <img className='gdscBadge'src={gdscBadge} alt='GDSC Lead Badge' />
                     </a>
                 </div>
             </section>
@@ -43,12 +46,11 @@ function About() {
                 <p className='text3' data-aos="fade-left" data-aos-duration="600" data-aos-delay="1900">As an aspiring full-stack web developer, I am constantly expanding my skillset to ensure I can contribute to all aspects of web development.</p>
 
                 <div className='buttons'>
-                    <a href='https://www.linkedin.com/in/ivan-suralta/' target='_blank'>
-                        <button className='aboutButtons' data-aos="zoom-out-up" data-aos-duration="600" data-aos-delay="2100"><AiFillLinkedin className='aboutIcons' />LinkedIn</button>
+                    <a href='https://www.linkedin.com/in/ivan-suralta/' target='_blank' data-aos="zoom-out-up" data-aos-duration="600" data-aos-delay="2100">
+                        <button className='aboutButtons' ><AiFillLinkedin className='aboutIcons' />LinkedIn</button>
                     </a>
-
-                    <a href='https://flowcv.com/resume/7jh4o2e0ac' target='_blank'>
-                        <button className='aboutButtons' data-aos="zoom-out-up" data-aos-duration="600" data-aos-delay="2300" ><BsFileEarmarkPerson className='aboutIcons' />Résumé</button>
+                    <a href='https://flowcv.com/resume/7jh4o2e0ac' target='_blank'  data-aos="zoom-out-up" data-aos-duration="600" data-aos-delay="2300">
+                        <button className='aboutButtons'><BsFileEarmarkPerson className='aboutIcons' />Résumé</button>
                     </a>
                 </div>
             </section>
