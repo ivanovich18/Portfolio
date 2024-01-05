@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a5ec75e4.css",
-    "main.js": "/static/js/main.8a903125.js",
+    "main.css": "/static/css/main.dbba516d.css",
+    "main.js": "/static/js/main.11ed6aa9.js",
     "static/media/aboutme-pic2.png": "/static/media/aboutme-pic2.48239b36e0da2c0b8287.png",
     "static/media/hero-img-ivan.png": "/static/media/hero-img-ivan.17e04c76cdd89ebb854f.png",
     "static/media/GoogleSans-Regular.ttf": "/static/media/GoogleSans-Regular.bec0591b6a291c3ca895.ttf",
@@ -16,11 +16,11 @@
     "static/media/gdsc-badge.png": "/static/media/gdsc-badge.e9e31dd094ad8e28f8e4.png",
     "static/media/test.svg": "/static/media/test.1b240d61fd41fc96a1d55eb3f22f4898.svg",
     "index.html": "/index.html",
-    "main.a5ec75e4.css.map": "/static/css/main.a5ec75e4.css.map",
-    "main.8a903125.js.map": "/static/js/main.8a903125.js.map"
+    "main.dbba516d.css.map": "/static/css/main.dbba516d.css.map",
+    "main.11ed6aa9.js.map": "/static/js/main.11ed6aa9.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5ec75e4.css",
-    "static/js/main.8a903125.js"
+    "static/css/main.dbba516d.css",
+    "static/js/main.11ed6aa9.js"
   ]
 }
