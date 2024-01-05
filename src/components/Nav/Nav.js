@@ -22,6 +22,7 @@ function Nav() {
     }, [])
 
     return (
+        <div className='fullWidth'>
         <nav className="navBar">
             <div className='navLeft' data-aos="fade-left" data-aos-duration="600" data-aos-delay="700">
                 <Link activeClass='active' to='hero' spy={true} smooth={true} offset={-100} duration={500}>
@@ -57,6 +58,7 @@ function Nav() {
                 <Link activeClass='active' to='contact' spy={true} smooth={true} offset={0} duration={500} className='mobileItem' onClick={() => setShowMenu(false)}>Contact Me</Link>
             </div>
         </nav >
+        </div>
     );
 }
 
