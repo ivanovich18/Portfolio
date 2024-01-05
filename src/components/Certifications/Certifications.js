@@ -20,7 +20,8 @@ function Certifications() {
     return (
         <section id='certifications' class='certifications'>
             <h2 className='header2 smallerHeader' data-aos="fade-down" data-aos-duration="600" data-aos-delay="300">Certifications</h2>
-            <section className='certDiv whiteSelection' data-aos="flip-left" data-aos-duration="600" data-aos-delay="500">
+            <div  data-aos="flip-left" data-aos-duration="600" data-aos-delay="500">
+            <section className='certDiv whiteSelection'>
                 <div class='certLeft'>
                     <h3 className='header3'>Meta Front-End Developer Professional Certificate</h3>
                     <p>Coursera</p>
@@ -36,7 +37,9 @@ function Certifications() {
                     <img src={courseraPic} alt='Coursera Logo' />
                 </div>
             </section>
-            <section className='certDiv whiteSelection' data-aos="flip-left" data-aos-duration="600" data-aos-delay="600">
+            </div>
+            <div  data-aos="flip-left" data-aos-duration="600" data-aos-delay="600">
+            <section className='certDiv whiteSelection'>
                 <div class='certLeft'>
                     <h3 className='header3'>CS50's Introduction to Computer Science (2023)</h3>
                     <p>CS50, Harvard University</p>
@@ -53,7 +56,9 @@ function Certifications() {
                     <img src={harvardPic} alt='Harvard University Logo' />
                 </div>
             </section>
-            <section className='certDiv whiteSelection' data-aos="flip-left" data-aos-duration="600" data-aos-delay="700">
+            </div>
+            <div data-aos="flip-left" data-aos-duration="600" data-aos-delay="700">
+            <section className='certDiv whiteSelection' >
                 <div class='certLeft'>
                     <h3 className='header3'>Principles of Graphic Design</h3>
                     <p>University of the Philippines Open University</p>
@@ -69,7 +74,9 @@ function Certifications() {
                     <img src={uniOfPhilippinesOU} alt='University of the Philippines Open University Logo' />
                 </div>
             </section >
-            <section className='otherCerts whiteSelection' data-aos="flip-left" data-aos-duration="600" data-aos-delay="800">
+            </div>
+            <div data-aos="flip-left" data-aos-duration="600" data-aos-delay="800">
+            <section className='otherCerts whiteSelection' >
                 <div className='otherLeft'>
                     <div className='other'>
                         <h3>
@@ -215,6 +222,7 @@ function Certifications() {
                     </div>
                 </div>
             </section>
+            </div>
             <div className='dividerBottomDashed divCertifications'></div>
         </section>
     );
