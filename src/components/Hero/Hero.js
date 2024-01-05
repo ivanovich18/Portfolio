@@ -29,7 +29,10 @@ function Hero() {
                 <p className='location'>Cebu City, Philippines</p>
             </div>
 
-            <img className='heroBigText' data-aos="flip-left" data-aos-duration="600" data-aos-delay="900" src={ivanDev2} />
+            <div data-aos="flip-left" data-aos-duration="600" data-aos-delay="900" >
+            <img className='heroBigText' src={ivanDev2} />
+            </div>
+            
 
             <div className='heroBottom' data-aos="fade-up" data-aos-duration="600" data-aos-delay="1000">
                 <p className='bottomText'>Discover all the things about Ivan. </p>
