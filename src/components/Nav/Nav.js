@@ -3,7 +3,7 @@ import './nav.css';
 import logo from '../../assets/favicon_io/android-chrome-192x192.png';
 import { Link } from 'react-scroll';
 import { RiArrowRightSLine } from "react-icons/ri";
-import { GiHamburgerMenu } from "react-icons/gi";
+// import { GiHamburgerMenu } from "react-icons/gi";
 import { RxHamburgerMenu } from "react-icons/rx";
 
 import AOS from "aos";
