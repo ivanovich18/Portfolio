@@ -56,13 +56,13 @@
     margin-top: 2rem;
 }
 
-.heroBigText {
+/* .heroBigText {
     transition: transform 0.3s ease-in-out;
 }
 
 .heroBigText:hover {
     transform: translateY(-5px) !important;
-}
+} */
 
 /* Media Query for Mobile Devices */
 @media screen and (max-width: 720px) {
