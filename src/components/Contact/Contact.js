@@ -9,6 +9,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 function Contact() {
+  // Initializes AOS library on component mount with a one-time animation duration of 2000 milliseconds.
   useEffect(() => {
     AOS.init({
       once: true,
@@ -16,23 +17,29 @@ function Contact() {
     });
   }, []);
 
+  // Creates a reference for the HTML form element.
   const form = useRef();
 
+  // Defines a state variable open and a function setOpen to manage the visibility of the Snackbar.
   const [open, setOpen] = useState(false);
- 
+
+  // Defines a function handleToClose to handle Snackbar closing events.
   const handleToClose = (event, reason) => {
       if ("clickaway" == reason) return;
       setOpen(false);
   };
 
+  // Defines a function handleClickEvent to handle opening the Snackbar.
   const handleClickEvent = () => {
       setOpen(true);
   };
 
+  // Defines state variables (isFormValid, isSendingEmail, isSubmitted) to manage form validation and submission status.
   const [isFormValid, setIsFormValid] = useState(false);
   const [isSendingEmail, setIsSendingEmail] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
 
+  // Defines a function sendEmail to handle form submission, send an email using the emailjs library, and manage form submission state.
   const sendEmail = async (e) => {
     e.preventDefault();
 
@@ -53,6 +60,7 @@ function Contact() {
     }
   };
 
+  // Defines a function handleInputChange to handle input changes and update form validity.
   const handleInputChange = () => {
     const nameInput = form.current['from_name'];
     const emailInput = form.current['from_email'];
