@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.8293b862.css",
-    "main.js": "/static/js/main.11ed6aa9.js",
-    "static/media/aboutme-pic2.png": "/static/media/aboutme-pic2.48239b36e0da2c0b8287.png",
-    "static/media/hero-img-ivan.png": "/static/media/hero-img-ivan.17e04c76cdd89ebb854f.png",
+    "main.css": "/static/css/main.4850cee3.css",
+    "main.js": "/static/js/main.d333b933.js",
+    "static/media/hero-img-new.png": "/static/media/hero-img-new.bead7aaa7ec8b920c17c.png",
     "static/media/GoogleSans-Regular.ttf": "/static/media/GoogleSans-Regular.bec0591b6a291c3ca895.ttf",
     "static/media/GoogleSans-Medium.ttf": "/static/media/GoogleSans-Medium.963c3e555aaada9ef8a9.ttf",
+    "static/media/aboutme-pic4.jpg": "/static/media/aboutme-pic4.4d79d549537a677587a9.jpg",
+    "static/media/TESDA.png": "/static/media/TESDA.f96aeaec56e100c663cd.png",
     "static/media/mangata-and-gallo.png": "/static/media/mangata-and-gallo.d6bb05e9e5517776f628.png",
     "static/media/little-lemon.png": "/static/media/little-lemon.60dd8b1ae1280adb74e8.png",
     "static/media/student-enrollment.png": "/static/media/student-enrollment.79f5a90f9765a17def22.png",
+    "static/media/symph-logo.png": "/static/media/symph-logo.67049360f8156756ac45.png",
     "static/media/quiz-tion.png": "/static/media/quiz-tion.02fcedbf16471e72f681.png",
     "static/media/upou.jpg": "/static/media/upou.41fa7c8dd31cb6c8f133.jpg",
     "static/media/harvard.png": "/static/media/harvard.33fa9091047cc3c5a7dd.png",
@@ -16,11 +18,11 @@
     "static/media/gdsc-badge.png": "/static/media/gdsc-badge.e9e31dd094ad8e28f8e4.png",
     "static/media/test.svg": "/static/media/test.1b240d61fd41fc96a1d55eb3f22f4898.svg",
     "index.html": "/index.html",
-    "main.8293b862.css.map": "/static/css/main.8293b862.css.map",
-    "main.11ed6aa9.js.map": "/static/js/main.11ed6aa9.js.map"
+    "main.4850cee3.css.map": "/static/css/main.4850cee3.css.map",
+    "main.d333b933.js.map": "/static/js/main.d333b933.js.map"
   },
   "entrypoints": [
-    "static/css/main.8293b862.css",
-    "static/js/main.11ed6aa9.js"
+    "static/css/main.4850cee3.css",
+    "static/js/main.d333b933.js"
   ]
 }
