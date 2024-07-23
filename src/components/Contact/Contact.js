@@ -76,7 +76,7 @@ function Contact() {
       <h2 className="header2 smallerHeader" data-aos="fade-down" data-aos-duration="600" data-aos-delay="300">
         Contact Me
       </h2>
-      <p data-aos="zoom-in" data-aos-duration="600" data-aos-delay="500">I am always free for collaboration.</p>
+      <p data-aos="zoom-in" data-aos-duration="600" data-aos-delay="500">I am free for collaboration.</p>
       <p data-aos="zoom-in" data-aos-duration="600" data-aos-delay="600">
         Whether you need help for projects or other things, send me a message and let's chat.
       </p>
