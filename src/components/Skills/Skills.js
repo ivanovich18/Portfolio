@@ -15,6 +15,9 @@ import linux from '../../assets/slider-photos/Linux.png';
 import npm from '../../assets/slider-photos/NPM.png';
 import ts from '../../assets/slider-photos/TypeScript.png';
 import vscode from '../../assets/slider-photos/Visual Studio Code 2019.png';
+import java from '../../assets/slider-photos/Java.png';
+import tailwindCSS from '../../assets/slider-photos/Tailwind-CSS.png';
+import nextJs from '../../assets/slider-photos/NextJS.png';
 
 function Skills() {
     return (
@@ -23,10 +26,13 @@ function Skills() {
                 <img src={html} alt='HTML' />
                 <img src={css} alt='CSS' />
                 <img src={bootstrap} alt='Boostrap' />
+                <img src={tailwindCSS} alt='Tailwind CSS' />
                 <img src={js} alt='JavaScript' />
                 <img src={ts} alt='TypeScript' />
                 <img src={react} alt='ReactJS' />
+                <img src={nextJs} alt='NextJS' />
                 <img src={python} alt='Python' />
+                <img src={java} alt='Java' />
                 <img src={figma} alt='Figma' />
                 <img src={git} alt='Git' />
                 <img src={flutter} alt='Flutter' />
@@ -37,13 +43,16 @@ function Skills() {
                 <img src={vscode} alt='Visual Studio Code' />
             </div>
             <div className='logo-slider'>
-                <img src={html} alt='HTML' />
+            <img src={html} alt='HTML' />
                 <img src={css} alt='CSS' />
                 <img src={bootstrap} alt='Boostrap' />
+                <img src={tailwindCSS} alt='Tailwind CSS' />
                 <img src={js} alt='JavaScript' />
                 <img src={ts} alt='TypeScript' />
                 <img src={react} alt='ReactJS' />
+                <img src={nextJs} alt='NextJS' />
                 <img src={python} alt='Python' />
+                <img src={java} alt='Java' />
                 <img src={figma} alt='Figma' />
                 <img src={git} alt='Git' />
                 <img src={flutter} alt='Flutter' />

@@ -15,7 +15,7 @@
     height: 27rem;
     border-radius: 0.9375rem;
     flex-shrink: 0;
-    object-position: center bottom;
+    object-position: 50% 80%;
 }
 
 .helloBtn {

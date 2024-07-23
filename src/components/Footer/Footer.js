@@ -3,7 +3,7 @@ import footerLogo from '../../assets/favicon_io/android-chrome-192x192.png';
 import '../Footer/footer.css'
 import { MdEmail } from "react-icons/md";
 import { BsLinkedin, BsGithub, BsInstagram, BsFacebook } from "react-icons/bs";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaTiktok } from "react-icons/fa";
 import { AiOutlineCopyrightCircle } from "react-icons/ai";
 import { Link } from 'react-scroll';
 
@@ -19,6 +19,7 @@ function Footer() {
         })
     }, [])
 
+    const currentYear = new Date().getFullYear(); // Get the current year
 
     return (
         <footer>
@@ -39,14 +40,15 @@ function Footer() {
                     <a data-aos="fade-right" data-aos-duration="600" data-aos-delay="700" href='https://github.com/ivanovich18' target='_blank'><BsGithub className='socialIcons github' /></a>
                     <a data-aos="fade-right" data-aos-duration="600" data-aos-delay="800" href='https://www.instagram.com/itsivansuralta/' target='_blank'><BsInstagram className='socialIcons instagram' /></a>
                     <a data-aos="fade-right" data-aos-duration="600" data-aos-delay="900" href='https://www.facebook.com/ivanovich0808' target='_blank'><BsFacebook className='socialIcons facebook' /></a>
-                    <a data-aos="fade-right" data-aos-duration="600" data-aos-delay="1100" href='https://twitter.com/ivanovich0808' target='_blank'><FaXTwitter className='socialIcons twitter' /></a>
+                    {/* <a data-aos="fade-right" data-aos-duration="600" data-aos-delay="1100" href='https://twitter.com/ivanovich0808' target='_blank'><FaXTwitter className='socialIcons twitter' /></a> */}
+                    <a data-aos="fade-right" data-aos-duration="600" data-aos-delay="1100" href='https://www.tiktok.com/@ivansuraltaph' target='_blank'><FaTiktok className='socialIcons' /></a>
                 </div>
             </section>
             <div className='dividerBottomSolid'></div>
             <section className='botFooter'>
                 <div className='botLeft'>
                     <AiOutlineCopyrightCircle className='copyrightLogo' />
-                    <p>2024 Ivan Suralta. All rights reserved.</p>
+                    <p>{currentYear} Ivan Suralta. All rights reserved.</p>
                 </div>
                 <div className='botRight'>
                     <a href='https://github.com/ivanovich18/softdev1-portfolio-website/blob/main/LICENSE' target='_blank'><p>License</p></a>
