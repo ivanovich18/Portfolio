@@ -74,11 +74,12 @@
 /* Media Query for Mobile Devices */
 @media screen and (max-width:720px) {
     .contact {
-        height: 60rem;
+        height: 50rem;
         width: 100vw;
         text-align: center;
         margin-top: 1rem;
         margin-bottom: 0rem;
+        /* background-color: aqua; */
     }
 
     .submitBtn {
@@ -91,7 +92,7 @@
 /* Media Query for Tablets */
 @media (min-width: 768px) and (max-width: 1023px) {
     .contact {
-        height: 43rem;
+        height: 52rem;
         width: 100vw;
         text-align: center;
         margin-top: 1rem;

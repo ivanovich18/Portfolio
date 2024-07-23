@@ -41,7 +41,7 @@
 }
 
 .tesda {
-    width: auto;
+    width: 147px;
     height: 147px;
     /* display: flex;
     justify-content: center;
@@ -136,8 +136,9 @@
 
     .certifications {
         margin-top: 4rem;
-        height: 160rem;
+        height: 192.5rem;
         gap: 2rem;
+        /* background-color: aqua; */
     }
 
     .certDiv {
@@ -202,8 +203,9 @@
 @media (min-width: 768px) and (max-width: 1023px) {
     .certifications {
         margin-top: 4rem;
-        height: 150rem;
-        gap: 2rem;
+        height: 187rem;
+        gap: 4rem;
+        background-color: aqua;
     }
 
     .certDiv {

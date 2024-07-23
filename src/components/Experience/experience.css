@@ -56,8 +56,8 @@
     position: absolute;
     animation: pulse-animation 0.75s infinite;
 }
-/*
-.pulse::before { Create the horizontal line 
+
+/* .pulse::before {
     content: '';
     position: absolute;
     width: 70%;
@@ -177,7 +177,7 @@
     .experience {
         width: 100vw;
         max-width: 80rem;
-        height: 94rem;
+        height: 170rem;
         row-gap: 2.5rem;
         overflow: hidden;
         margin-top: 2rem;
@@ -219,38 +219,114 @@
         align-items: center;
     }
 
+    .pulseOne {
+        top: 172.7rem;
+        z-index: 2;
+    }
+
+    .pulseTwo {
+        top: 195.3rem;
+        z-index: 2;
+    }
+
+    .pulseThree {
+        top: 218.1rem;
+        z-index: 2;
+    }
+
+     .pulseFour {
+        top: 240.7rem;
+        z-index: 2;
+    }
+
+     .pulseFive {
+        top: 264.1rem;
+        z-index: 2;
+    }
+
+    .pulseSix {
+        top: 286.8rem;
+        z-index: 2;
+    }
+
     .verticalLineOne {
-        top: 169rem;
+        top: 172.7rem;
     }
 
     .verticalLineTwo {
-        top: 198rem;
+        top: 195.3rem;
     }
 
-    .pulseOne {
-        top: 171rem;
+    .verticalLineThree {
+        top: 218.1rem;
     }
-    
-    .pulseTwo {
-        top: 198.5rem;
+
+    .verticalLineFour {
+        top: 240.7rem;
+    }
+
+    .verticalLineFive {
+        top: 264.1rem;
+    }
+
+    .verticalLineSix {
+        top: 286.8rem;
     }
 }
 
 /* Media Query for Tablets */
 @media (min-width: 768px) and (max-width: 1023px) {
+    .pulseOne {
+        top: 154.6rem;
+        z-index: 2;
+    }
+
+    .pulseTwo {
+        top: 170.1rem;
+        z-index: 2;
+    }
+
+    .pulseThree {
+        top: 185.6rem;
+        z-index: 2;
+    }
+
+     .pulseFour {
+        top: 201.1rem;
+        z-index: 2;
+    }
+
+     .pulseFive {
+        top: 216.6rem;
+        z-index: 2;
+    }
+
+    .pulseSix {
+        top: 232.2rem;
+        z-index: 2;
+    }
+
     .verticalLineOne {
-        top: 154rem;
+        top: 154.6rem;
     }
 
     .verticalLineTwo {
-        top: 168rem;
+        top: 170.1rem;
     }
 
-    .pulseOne {
-        top: 153.6rem;
+    .verticalLineThree {
+        top: 185.6rem;
     }
-    
-    .pulseTwo {
-        top: 168.1rem;
+
+    .verticalLineFour {
+        top: 201.1rem;
+    }
+
+    .verticalLineFive {
+        top: 216.6rem;
+    }
+
+    .verticalLineSix {
+        top: 232.2rem;
     }
 }
