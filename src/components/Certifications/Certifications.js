@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import courseraPic from '../../assets/others/coursera.png';
 import harvardPic from '../../assets/others/harvard.png';
 import uniOfPhilippinesOU from '../../assets/others/upou.jpg';
+import tesdaPic from '../../assets/others/TESDA.png';
 import '../Certifications/certifications.css'
 import { BiLinkExternal } from "react-icons/bi";
 
@@ -20,6 +21,24 @@ function Certifications() {
     return (
         <section id='certifications' class='certifications'>
             <h2 className='header2 smallerHeader' data-aos="fade-down" data-aos-duration="600" data-aos-delay="300">Certifications</h2>
+            <div  data-aos="flip-left" data-aos-duration="600" data-aos-delay="500">
+            <section className='certDiv whiteSelection'>
+                <div class='certLeft'>
+                    <h3 className='header3'>Internet of Things</h3>
+                    <p>Technical Education and Skills Development Authority (TESDA)</p>
+                    <p className='date'>Issued February 2024</p>
+                    <p>Internet of Things · Arduino · Cloud </p>
+                    <div className='certButtons'>
+                        <a href='https://www.linkedin.com/in/ivan-suralta/details/certifications/1716390492429/single-media-viewer?type=IMAGE&profileId=ACoAADmmRawBV7PVsdCrY4mzTrVseLzilQMgIss&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BU68sD2enSkmojUh8ecys5w%3D%3D' target='_blank'>
+                            <button className='certBtn'>Show Credential <BiLinkExternal /></button>
+                        </a>
+                    </div>
+                </div>
+                <div className='certRight'>
+                    <img className='tesda' src={tesdaPic} alt='TESDA Logo' />
+                </div>
+            </section>
+            </div>
             <div  data-aos="flip-left" data-aos-duration="600" data-aos-delay="500">
             <section className='certDiv whiteSelection'>
                 <div class='certLeft'>
