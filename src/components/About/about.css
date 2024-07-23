@@ -41,7 +41,9 @@ width: 60%;
     height: 22rem;
     border-radius: 0.625rem;
     transition: transform 0.3s ease-in-out;
-    /* border: 1px solid #FFF; */
+    border: 2px solid #fff; 
+    /* outline: 1px solid #f0f0f0; */
+    box-shadow: 0 4px 6px rgba(245, 242, 242, 0.993);
 }
 
 .metaBadge,.gdscBadge {
