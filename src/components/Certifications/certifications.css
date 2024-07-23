@@ -1,5 +1,5 @@
 .certifications {
-    height: 90rem;
+    height: 105rem;
     width: 100vw;
     max-width: 80rem;
     margin: 0 auto;
@@ -38,6 +38,14 @@
     margin: 1rem;
     justify-content: center;
     align-items: center;
+}
+
+.tesda {
+    width: auto;
+    height: 147px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 
 .certifications p {
