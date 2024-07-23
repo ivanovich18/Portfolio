@@ -1,7 +1,7 @@
 .experience {
     width: 100vw;
     max-width: 80rem;
-    height: 55rem;
+    height: 120rem;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -22,9 +22,10 @@
     color: #000;
 }
 
-.expSpan {
-    color: #636363;
-    font-size: 1rem;
+.expDate {
+    color: #636363 !important;
+    font-size: 1rem !important;
+    font-weight: bold;
 }
 
 .expContainer {
@@ -55,6 +56,17 @@
     position: absolute;
     animation: pulse-animation 0.75s infinite;
 }
+/*
+.pulse::before { Create the horizontal line 
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 2px;
+    background-color: black;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+} */
 
 @keyframes pulse-animation {
     0% {
@@ -66,12 +78,32 @@
   }
 
 .pulseOne {
-    top: 133.2rem;
+    top: 134.2rem;
     z-index: 2;
 }
 
 .pulseTwo {
-    top: 147.7rem;
+    top: 149.7rem;
+    z-index: 2;
+}
+
+.pulseThree {
+    top: 165.2rem;
+    z-index: 2;
+}
+
+.pulseFour {
+    top: 180.7rem;
+    z-index: 2;
+}
+
+.pulseFive {
+    top: 196.2rem;
+    z-index: 2;
+}
+
+.pulseSix {
+    top: 211.7rem;
     z-index: 2;
 }
 
@@ -80,7 +112,23 @@
 }
 
 .verticalLineTwo {
-    top: 148rem;
+    top: 151rem;
+}
+
+.verticalLineThree {
+    top: 164.5rem;
+}
+
+.verticalLineFour {
+    top: 181rem;
+}
+
+.verticalLineFive {
+    top: 196rem;
+}
+
+.verticalLineSix {
+    top: 212rem;
 }
 
 /* .expContainer:first-of-type {
@@ -95,7 +143,7 @@
     margin-top: 1rem;
 }
 
-.gdscLogo, .dashlabsLogo, .ctuLogo {
+.orgLogo {
     max-width: 100%;
     object-fit: cover;
     width: 6.25rem;
@@ -159,7 +207,7 @@
         width: 100%;
     }
 
-    .expSpan {
+    .expDate {
         display: block;
     }
 
