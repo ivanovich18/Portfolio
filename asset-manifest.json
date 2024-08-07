@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.4850cee3.css",
+    "main.css": "/static/css/main.d9f59718.css",
     "main.js": "/static/js/main.d333b933.js",
     "static/media/hero-img-new.png": "/static/media/hero-img-new.bead7aaa7ec8b920c17c.png",
     "static/media/GoogleSans-Regular.ttf": "/static/media/GoogleSans-Regular.bec0591b6a291c3ca895.ttf",
@@ -18,11 +18,11 @@
     "static/media/gdsc-badge.png": "/static/media/gdsc-badge.e9e31dd094ad8e28f8e4.png",
     "static/media/test.svg": "/static/media/test.1b240d61fd41fc96a1d55eb3f22f4898.svg",
     "index.html": "/index.html",
-    "main.4850cee3.css.map": "/static/css/main.4850cee3.css.map",
+    "main.d9f59718.css.map": "/static/css/main.d9f59718.css.map",
     "main.d333b933.js.map": "/static/js/main.d333b933.js.map"
   },
   "entrypoints": [
-    "static/css/main.4850cee3.css",
+    "static/css/main.d9f59718.css",
     "static/js/main.d333b933.js"
   ]
 }
