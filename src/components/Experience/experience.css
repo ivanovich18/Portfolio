@@ -219,58 +219,8 @@
         align-items: center;
     }
 
-    .pulseOne {
-        top: 172.7rem;
-        z-index: 2;
-    }
-
-    .pulseTwo {
-        top: 195.3rem;
-        z-index: 2;
-    }
-
-    .pulseThree {
-        top: 218.1rem;
-        z-index: 2;
-    }
-
-     .pulseFour {
-        top: 240.7rem;
-        z-index: 2;
-    }
-
-     .pulseFive {
-        top: 264.1rem;
-        z-index: 2;
-    }
-
-    .pulseSix {
-        top: 286.8rem;
-        z-index: 2;
-    }
-
-    .verticalLineOne {
-        top: 172.7rem;
-    }
-
-    .verticalLineTwo {
-        top: 195.3rem;
-    }
-
-    .verticalLineThree {
-        top: 218.1rem;
-    }
-
-    .verticalLineFour {
-        top: 240.7rem;
-    }
-
-    .verticalLineFive {
-        top: 264.1rem;
-    }
-
-    .verticalLineSix {
-        top: 286.8rem;
+    .pulseOne, .pulseTwo, .pulseThree, .pulseFour, .pulseFive, .pulseSix, .verticalLineOne, .verticalLineTwo, .verticalLineThree, .verticalLineFour, .verticalLineFive, .verticalLineSix {
+        display: none;
     }
 }
 
