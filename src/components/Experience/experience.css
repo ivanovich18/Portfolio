@@ -226,57 +226,7 @@
 
 /* Media Query for Tablets */
 @media (min-width: 768px) and (max-width: 1023px) {
-    .pulseOne {
-        top: 154.6rem;
-        z-index: 2;
-    }
-
-    .pulseTwo {
-        top: 170.1rem;
-        z-index: 2;
-    }
-
-    .pulseThree {
-        top: 185.6rem;
-        z-index: 2;
-    }
-
-     .pulseFour {
-        top: 201.1rem;
-        z-index: 2;
-    }
-
-     .pulseFive {
-        top: 216.6rem;
-        z-index: 2;
-    }
-
-    .pulseSix {
-        top: 232.2rem;
-        z-index: 2;
-    }
-
-    .verticalLineOne {
-        top: 154.6rem;
-    }
-
-    .verticalLineTwo {
-        top: 170.1rem;
-    }
-
-    .verticalLineThree {
-        top: 185.6rem;
-    }
-
-    .verticalLineFour {
-        top: 201.1rem;
-    }
-
-    .verticalLineFive {
-        top: 216.6rem;
-    }
-
-    .verticalLineSix {
-        top: 232.2rem;
+    .pulseOne, .pulseTwo, .pulseThree, .pulseFour, .pulseFive, .pulseSix, .verticalLineOne, .verticalLineTwo, .verticalLineThree, .verticalLineFour, .verticalLineFive, .verticalLineSix {
+        display: none;
     }
 }
