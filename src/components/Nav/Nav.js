@@ -50,12 +50,12 @@ function Nav() {
 
             <div className='navMenu' style={{ display: showMenu ? 'flex' : 'none' }}>
                 <Link activeClass='active' to='hero' spy={true} smooth={true} offset={-80} duration={500} className='mobileItem' onClick={() => setShowMenu(false)}>Home</Link>
-                <Link activeClass='active' to='about' spy={true} smooth={true} offset={-65} duration={500} className='mobileItem' onClick={() => setShowMenu(false)}>About</Link>
+                <Link activeClass='active' to='about' spy={true} smooth={true} offset={-50} duration={500} className='mobileItem' onClick={() => setShowMenu(false)}>About</Link>
                 <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className='mobileItem' onClick={() => setShowMenu(false)}>Skills</Link>
                 <Link activeClass='active' to='experience' spy={true} smooth={true} offset={-80} duration={500} className='mobileItem' onClick={() => setShowMenu(false)}>Experience</Link>
                 <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-60} duration={500} className='mobileItem' onClick={() => setShowMenu(false)}>Projects</Link>
                 <Link activeClass='active' to='certifications' spy={true} smooth={true} offset={-80} duration={500} className='mobileItem' onClick={() => setShowMenu(false)}>Certifications</Link>
-                <Link activeClass='active' to='contact' spy={true} smooth={true} offset={0} duration={500} className='mobileItem' onClick={() => setShowMenu(false)}>Contact Me</Link>
+                <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-20} duration={500} className='mobileItem' onClick={() => setShowMenu(false)}>Contact Me</Link>
             </div>
         </nav >
         </div>
