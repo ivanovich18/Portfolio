@@ -78,32 +78,27 @@
   }
 
 .pulseOne {
-    top: 134.2rem;
+    top: 134.4rem;
     z-index: 2;
 }
 
 .pulseTwo {
-    top: 149.7rem;
+    top: 149.9rem;
     z-index: 2;
 }
 
 .pulseThree {
-    top: 165.2rem;
+    top: 165.5rem;
     z-index: 2;
 }
 
 .pulseFour {
-    top: 180.7rem;
+    top: 181rem;
     z-index: 2;
 }
 
 .pulseFive {
-    top: 196.2rem;
-    z-index: 2;
-}
-
-.pulseSix {
-    top: 211.7rem;
+    top: 196.6rem;
     z-index: 2;
 }
 
