@@ -39,7 +39,7 @@ function Nav() {
                 <Link activeClass='active' to='about' spy={true} smooth={true} offset={-60} duration={500} className='desktopLinkItems'><a data-aos="fade-down" data-aos-duration="600" data-aos-delay="700">About</a></Link>
                 <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className='desktopLinkItems' ><a data-aos="fade-down" data-aos-duration="600" data-aos-delay="900">Skills</a></Link>
                 <Link activeClass='active' to='experience' spy={true} smooth={true} offset={-90} duration={500} className='desktopLinkItems'><a data-aos="fade-down" data-aos-duration="600" data-aos-delay="1100">Experience</a></Link>
-                <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-100} duration={500} className='desktopLinkItems'><a data-aos="fade-down" data-aos-duration="600" data-aos-delay="1300">Projects</a></Link>
+                <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-135} duration={500} className='desktopLinkItems'><a data-aos="fade-down" data-aos-duration="600" data-aos-delay="1300">Projects</a></Link>
                 <Link activeClass='active' to='certifications' spy={true} smooth={true} offset={-100} duration={500} className='desktopLinkItems'><a data-aos="fade-down" data-aos-duration="600" data-aos-delay="1500">Certifications</a></Link>
             </div>
             <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-100} duration={500}>
