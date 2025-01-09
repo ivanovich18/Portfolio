@@ -35,17 +35,6 @@ function Experience() {
             </section>
             <div className='pulse pulseOne' data-aos="zoom-in" data-aos-duration="650" data-aos-delay="500"></div>
             <div className='verticalLine verticalLineOne' data-aos="zoom-in" data-aos-duration="650" data-aos-delay="500"></div>
-            <section class='expContainer whiteSelection' data-aos="flip-left" data-aos-duration="600" data-aos-delay="600">
-                <div className='expLeft'>
-                    <h3 className='header3'>Project Management Intern </h3>
-                    <p className='expDate'>June 2024 - Present</p>
-                    <p>Symph</p>
-                    <p className='expDetails'>Facilitated team syncs and client meetings, prepared product/feature documentation, and performed quality assurance.</p>
-                </div>
-                <div className='expRight'>
-                    <img className='orgLogo' src={symphLogo} alt='Symph Logo' />
-                </div>
-            </section>
             <div className='pulse pulseTwo' data-aos="zoom-in" data-aos-duration="650" data-aos-delay="500"></div>
             <div className='verticalLine verticalLineTwo' data-aos="zoom-in" data-aos-duration="650" data-aos-delay="500"></div>
              <section class='expContainer whiteSelection' data-aos="flip-left" data-aos-duration="600" data-aos-delay="600">
@@ -98,8 +87,6 @@ function Experience() {
                     <img className='orgLogo' src={dashlabsLogo} alt='Dashlabs.ai Logo' />
                 </div>
             </section>
-            <div className='pulse pulseSix' data-aos="zoom-in" data-aos-duration="650" data-aos-delay="500"></div>
-            <div className='verticalLine verticalLineSix' data-aos="zoom-in" data-aos-duration="650" data-aos-delay="500"></div>
             <section class='expContainer whiteSelection' data-aos="flip-left" data-aos-duration="600" data-aos-delay="700">
                 <div className='expLeft'>
                     <h3 className='header3'>Student </h3>
