@@ -23,7 +23,7 @@ function About() {
         <main id='about' className='aboutPage'>
             <section className='aboutLeft'>
                 <div data-aos="zoom-in-down" data-aos-duration="600" data-aos-delay="300">
-                <img className='aboutImage' src={aboutMePic} alt='Ivan portrait photo' />
+                <img className='aboutImage' src={aboutMePic} alt='Ivan portrait photo' loading='lazy'/>
                 </div>
 
                 <div className='badges'>

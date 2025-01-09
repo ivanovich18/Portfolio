@@ -20,7 +20,7 @@ function Hero() {
     return (
         <header id='hero' className='hero'>
             <div className='imgContainer' data-aos="fade-left" data-aos-duration="600" data-aos-delay="700">
-                <img className='bigHeroImg' src={heroImg} alt='Ivan Suralta with Google background' />
+                <img className='bigHeroImg' src={heroImg} alt='Ivan Suralta with Grand Hyatt PH Background' loading='lazy'/>
                 {/* <button className='helloBtn'><BsPlayCircle className='playBtn' />Hello, World!</button> */}
             </div>
 
