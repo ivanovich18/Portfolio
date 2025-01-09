@@ -1,6 +1,6 @@
 // import aboutMePic from '../../assets/aboutme-pic.png';
 import React, { useEffect } from 'react';
-import aboutMePic3 from '../../assets/others/aboutme-pic4.jpg';
+import aboutMePic from '../../assets/others/aboutme-pic5.jpg';
 import metaBadge from '../../assets/others/meta-front-end-developer-certificate.png';
 import gdscBadge from '../../assets/others/gdsc-badge.png';
 import '../About/about.css'
@@ -23,7 +23,7 @@ function About() {
         <main id='about' className='aboutPage'>
             <section className='aboutLeft'>
                 <div data-aos="zoom-in-down" data-aos-duration="600" data-aos-delay="300">
-                <img className='aboutImage' src={aboutMePic3} alt='Ivan portrait photo' />
+                <img className='aboutImage' src={aboutMePic} alt='Ivan portrait photo' />
                 </div>
 
                 <div className='badges'>
