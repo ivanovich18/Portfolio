@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.ddd15160.css",
-    "main.js": "/Portfolio/static/js/main.0be43194.js",
+    "main.js": "/Portfolio/static/js/main.8a768d53.js",
+    "static/media/aboutme-pic5.jpg": "/Portfolio/static/media/aboutme-pic5.b450a1e784fbedab3e68.jpg",
     "static/media/hero-img-new.png": "/Portfolio/static/media/hero-img-new.bead7aaa7ec8b920c17c.png",
     "static/media/GoogleSans-Regular.ttf": "/Portfolio/static/media/GoogleSans-Regular.bec0591b6a291c3ca895.ttf",
     "static/media/GoogleSans-Medium.ttf": "/Portfolio/static/media/GoogleSans-Medium.963c3e555aaada9ef8a9.ttf",
-    "static/media/aboutme-pic4.jpg": "/Portfolio/static/media/aboutme-pic4.4d79d549537a677587a9.jpg",
     "static/media/TESDA.png": "/Portfolio/static/media/TESDA.f96aeaec56e100c663cd.png",
     "static/media/mangata-and-gallo.png": "/Portfolio/static/media/mangata-and-gallo.d6bb05e9e5517776f628.png",
     "static/media/little-lemon.png": "/Portfolio/static/media/little-lemon.60dd8b1ae1280adb74e8.png",
@@ -19,10 +19,10 @@
     "static/media/test.svg": "/Portfolio/static/media/test.1b240d61fd41fc96a1d55eb3f22f4898.svg",
     "index.html": "/Portfolio/index.html",
     "main.ddd15160.css.map": "/Portfolio/static/css/main.ddd15160.css.map",
-    "main.0be43194.js.map": "/Portfolio/static/js/main.0be43194.js.map"
+    "main.8a768d53.js.map": "/Portfolio/static/js/main.8a768d53.js.map"
   },
   "entrypoints": [
     "static/css/main.ddd15160.css",
-    "static/js/main.0be43194.js"
+    "static/js/main.8a768d53.js"
   ]
 }
